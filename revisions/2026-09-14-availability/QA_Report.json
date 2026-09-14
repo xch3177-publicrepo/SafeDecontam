@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-09-14T05:22:16.340531+00:00",
+  "baseline_repository": "xch3177-publicrepo/SafeDecontam",
+  "baseline_main_commit": "06d02802ec20505382ede566179d972c5ed990fa",
+  "baseline_tex_sha256": "053b0fc0e75f82c1fa2a2384cbc69ec16e8e2d454e8b7b3c566e7bfd832a9dec",
+  "baseline_pdf_sha256": "386d1964d5226f55412f2d52e9e7f13e60df22adc50d87a2094dfaa00c0aee1b",
+  "output_tex_sha256": "dffb8c5468dc1de62d99bf4fdcab3293b1af26c47c9afbe295d0f46c9e80a79f",
+  "output_pdf_sha256": "bae82dac354b40e2315f0b83159ef0a695bf96861c6e4f695b4cfa7e83911bd8",
+  "pages": 5,
+  "addition": "Code and selected data are available at \\url{https://github.com/xch3177-publicrepo/SafeDecontam}.",
+  "location": "Section IV-B, end of raw-search protocol paragraph, page 3 right column.",
+  "scope_check": "Removing exactly the added sentence restores the baseline TeX byte-for-byte. Existing prose, abstract, authors, equations, numerical values, fonts, margins, spacing commands and figure are unchanged.",
+  "build": "Three successful pdflatex passes; no overfull boxes, missing glyphs, undefined references or LaTeX errors.",
+  "visual_qa": "All five page renders inspected; sentence and complete references fit with no clipping or overlap.",
+  "availability_scope": "Selected data avoids implying that unavailable individual human labels or original MMLU validation/calibration score rows were released.",
+  "trial_history": [
+    "A longer sentence with selected evaluation data produced six pages.",
+    "Protocol and first-page footnote variants also produced six pages; a moving-argument URL required protection during the footnote trial.",
+    "The shorter selected data sentence fits five pages with the full https URL and no layout adjustments.",
+    "An optional pdfplumber space diagnostic was unavailable; page count and final rendered pages were inspected with pypdf and Poppler."
+  ],
+  "delivery": "Approved manuscript and package update; remote synchronization is recorded separately after upload.",
+  "author_approval": "User approved the tested sentence and requested GitHub push plus PDF/LaTeX ZIP.",
+  "package_version": "iccc2026-repro-20260914-v2"
+}

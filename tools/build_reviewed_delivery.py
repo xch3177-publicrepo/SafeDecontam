@@ -42,7 +42,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--source-commit", required=True)
-    parser.add_argument("--version", default="iccc2026-repro-20260914")
+    parser.add_argument("--version", default="iccc2026-repro-20260914-v2")
     args = parser.parse_args()
     if args.output.exists():
         raise SystemExit("Output already exists; choose a new directory to preserve prior delivery.")
@@ -60,6 +60,9 @@ def main():
     shutil.copyfile(ROOT / "LICENSE", package / "LICENSE")
     shutil.copyfile(ROOT / "CITATION.cff", package / "CITATION.cff")
     shutil.copytree(ROOT / "revisions/2026-09-14-external-review", package / "validation")
+    availability = ROOT / "revisions/2026-09-14-availability"
+    if availability.is_dir():
+        shutil.copytree(availability, package / "validation/availability")
     shutil.copyfile(ROOT / "reproducibility/verify_delivery.py", package / "verify_delivery.py")
     metadata = {"package_version": args.version, "source_commit": args.source_commit,
                 "manuscript_pdf_sha256": digest(manuscript / "SafeDecontam_ICCC2026_camera_ready_5p.pdf"),
@@ -72,17 +75,42 @@ def main():
         "`manuscript/` contains the five-page PDF, matching LaTeX, figure and build script. "
         "`experiment_source/` contains code, inputs, saved scores, evidence and verification commands. "
         "`validation/REVIEW_RESPONSE.md` explains the evidence corrections and remaining access limits.\n\n"
+        + ("`validation/availability/` records the subsequent code and data availability statement update; "
+           "the external-review validation snapshot is preserved separately.\n\n"
+           if availability.is_dir() else "") +
         "Run `python3 verify_delivery.py` to check file integrity. "
         "Then follow `experiment_source/README.md` for computational verification. "
         "A checksum check alone is not experimental reproduction.\n")
+    compact = args.output / "SafeDecontam_ICCC2026_PDF_LaTeX"
+    shutil.copytree(manuscript, compact)
+    shutil.copyfile(package / "VERSION.json", compact / "VERSION.json")
+    shutil.copyfile(package / "verify_delivery.py", compact / "verify_delivery.py")
+    (compact / "README.md").write_text(
+        "# SafeDecontam five-page manuscript package\n\n"
+        f"Package version: `{args.version}`. Source commit: `{args.source_commit}`.\n\n"
+        "This compact package contains the compiled five-page PDF, matching LaTeX source, "
+        "IEEEtran class, figure, build script, version metadata and integrity checker. "
+        "It does not contain experimental code or data.\n\n"
+        "From this folder, check the delivered files before rebuilding:\n\n"
+        "```sh\npython3 verify_delivery.py\n```\n\n"
+        "To rebuild, install a LaTeX distribution with `pdflatex` and Poppler's `pdfinfo`, "
+        "then run:\n\n"
+        "```sh\nbash build.sh\n```\n\n"
+        "The build checks for exactly five pages and rejects LaTeX errors, undefined references "
+        "and overfull boxes. It writes `SafeDecontam_ICCC2026_camera_ready_5p.pdf`. "
+        "Rebuilt PDF bytes can depend on the installed LaTeX toolchain; the supplied checksums "
+        "describe the delivered files.\n")
     manifest(source)
     manifest(package)
+    manifest(compact)
     full = args.output / "SafeDecontam_ICCC2026_5p_PDF_LaTeX_Code.zip"
     code = args.output / "SafeDecontam_ICCC2026_Experiment_Source.zip"
+    paper = args.output / "SafeDecontam_ICCC2026_5p_PDF_LaTeX.zip"
     zip_tree(package, full)
     zip_tree(source, code)
+    zip_tree(compact, paper)
     summary = {**metadata, "assets": {p.name: {"sha256": digest(p), "bytes": p.stat().st_size}
-                                      for p in [full, code]}}
+                                      for p in [full, code, paper]}}
     (args.output / "PACKAGE_MANIFEST.json").write_text(json.dumps(summary, indent=2) + "\n")
     print(json.dumps(summary, indent=2))
 

@@ -1,0 +1,11 @@
+--- Current main
++++ Local availability trial
+@@ -149,7 +149,7 @@
+ 
+ Some retain documents pair with multiple source items, so identical text may occur in different partitions without splitting a group.
+ 
+-The raw-search audit uses a separate 40/20/20/20 source-item split: training fits representations and scorers, validation selects one scorer, calibration turns retain-group maxima into a threshold for a 5\% budget at 95\% confidence, and test runs once. Repeated uniform resource locators are removed across splits, and retain assignments, threshold, software, data commit, and 256-bit Secure Hash Algorithm hashes are recorded to enable reproducible audit replay.
++The raw-search audit uses a separate 40/20/20/20 source-item split: training fits representations and scorers, validation selects one scorer, calibration turns retain-group maxima into a threshold for a 5\% budget at 95\% confidence, and test runs once. Repeated uniform resource locators are removed across splits, and retain assignments, threshold, software, data commit, and 256-bit Secure Hash Algorithm hashes are recorded to enable reproducible audit replay. Code and selected data are available at \url{https://github.com/xch3177-publicrepo/SafeDecontam}.
+ 
+ \subsection{Integrity Checks and Human Audit}
+ Alignment checks run before feature extraction: each of the 1,319 GSM8K rephrasings must produce the same extracted answer as its source, and four empty questions are discarded~\cite{yang2023}.

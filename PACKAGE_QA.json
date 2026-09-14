@@ -1,21 +1,40 @@
 {
-  "checked_utc": "2026-09-14T04:50:32.303194+00:00",
+  "checked_utc": "2026-09-14T05:31:27.116764+00:00",
   "archives": {
+    "SafeDecontam_ICCC2026_5p_PDF_LaTeX.zip": {
+      "files": 9,
+      "hash_entries_checked": 8,
+      "five_page_pdfs": [
+        "SafeDecontam_ICCC2026_PDF_LaTeX/SafeDecontam_ICCC2026_camera_ready_5p.pdf"
+      ],
+      "sha256": "538d70e7d122a14db5ff4d592259cebdcbcd03d84b137adfa2d69069b51fbdc8",
+      "bytes": 407150,
+      "passed": true
+    },
     "SafeDecontam_ICCC2026_5p_PDF_LaTeX_Code.zip": {
-      "files": 260,
-      "manifest_hash_checks": 623,
-      "five_page_manuscripts": [
+      "files": 265,
+      "hash_entries_checked": 628,
+      "five_page_pdfs": [
         "SafeDecontam_ICCC2026_Reproduction/manuscript/SafeDecontam_ICCC2026_camera_ready_5p.pdf"
       ],
-      "sha256": "d5c677ff60e9fb99a562cf531159f0ca61328694b0565292ecc33eecfcfca986",
+      "sha256": "fd0e3985fe727e4b7e9b59d970a53e3168660be274474c7588914671d27062f2",
+      "bytes": 13214766,
       "passed": true
     },
     "SafeDecontam_ICCC2026_Experiment_Source.zip": {
       "files": 222,
-      "manifest_hash_checks": 364,
-      "five_page_manuscripts": [],
+      "hash_entries_checked": 364,
+      "five_page_pdfs": [],
       "sha256": "f6828efb23c92f8fca6bf3c72368eaa0864f9fe49cfa376454b5c9a477b11968",
+      "bytes": 12685785,
       "passed": true
     }
-  }
+  },
+  "compact_rebuild": {
+    "exit_code": 0,
+    "pages": 5,
+    "byte_identical_pdf": true,
+    "sha256": "bae82dac354b40e2315f0b83159ef0a695bf96861c6e4f695b4cfa7e83911bd8"
+  },
+  "experimental_source_zip_unchanged": true
 }

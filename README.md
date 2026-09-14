@@ -6,12 +6,15 @@ Code and evidence for **SafeDecontam: Risk-Controlled Benchmark Decontamination*
 
 - [Five-page camera-ready PDF](SafeDecontam_ICCC2026_camera_ready_5p.pdf)
 - [Matching LaTeX](SafeDecontam_ICCC2026_revised.tex)
+- [PDF and LaTeX ZIP](SafeDecontam_ICCC2026_5p_PDF_LaTeX.zip)
 - [PDF, LaTeX, code, and evidence ZIP](SafeDecontam_ICCC2026_5p_PDF_LaTeX_Code.zip)
 - [Experimental source and evidence ZIP](SafeDecontam_ICCC2026_Experiment_Source.zip)
 - [External-review corrections](revisions/2026-09-14-external-review/REVIEW_RESPONSE.md)
 - [Evidence index and limits](reproducibility/EVIDENCE_INDEX.md)
 
-The reviewed reproduction package is `iccc2026-repro-20260914`. The unqualified PDF filename is a byte-identical five-page alias. Run `bash build_camera_ready.sh` to build the paper; it rejects a page count other than five.
+The reviewed reproduction package is `iccc2026-repro-20260914-v2`. The unqualified PDF filename is a byte-identical five-page alias. Run `bash build_camera_ready.sh` to build the paper; it rejects a page count other than five.
+
+The current manuscript adds the approved availability sentence in Section IV-B; it remains five pages. [The one-sentence change and validation](revisions/2026-09-14-availability/README.md) are recorded separately from historical experiment corrections. The experiment-source ZIP is unchanged from the previous release.
 
 ## Verify the available evidence
 
@@ -35,4 +38,4 @@ The repository's existing [MIT license](LICENSE) applies to the authors' code. U
 
 ## Repository provenance
 
-This is the independent release copy under `xch3177-publicrepo/SafeDecontam`. The reviewed materials are on `codex/iccc2026-reproduction`; the repository's initial `main` branch is unchanged. [SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json) records the exact source and delivery commits. The package preserves selected historical experiment outputs for provenance without importing private Git history or obsolete manuscript packages.
+This is the independent release copy under `xch3177-publicrepo/SafeDecontam`. The reviewed reproduction materials were merged into `main` at `06d0280`. The availability update and package `iccc2026-repro-20260914-v2` are on `codex/availability-20260914`; this update does not push `main`. [SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json) records the exact source and delivery commits. The package preserves selected historical experiment outputs for provenance without importing private Git history or obsolete manuscript packages.
