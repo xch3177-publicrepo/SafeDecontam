@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "ARC",
+    "passed": true,
+    "item_count": 1167,
+    "selected_scorer": "logistic",
+    "calibration_clean_groups": 199,
+    "allowed_exceedances": 4,
+    "threshold": 0.3825637933297938,
+    "cr": 0.4117647058823529,
+    "cdr": 0.02242152466367713,
+    "positive_n": 17,
+    "retain_n": 223,
+    "false_negative_n": 10,
+    "false_positive_n": 5,
+    "auroc_diagnostic": 0.9053020311263519
+  },
+  {
+    "dataset": "hellaswag",
+    "passed": true,
+    "item_count": 910,
+    "selected_scorer": "word_tfidf",
+    "calibration_clean_groups": 138,
+    "allowed_exceedances": 2,
+    "threshold": 0.9099744897107532,
+    "cr": 0.6363636363636364,
+    "cdr": 0.0,
+    "positive_n": 22,
+    "retain_n": 155,
+    "false_negative_n": 8,
+    "false_positive_n": 0,
+    "auroc_diagnostic": 0.9260997067448681
+  },
+  {
+    "dataset": "ceval",
+    "passed": true,
+    "item_count": 1320,
+    "selected_scorer": "logistic",
+    "calibration_clean_groups": 146,
+    "allowed_exceedances": 2,
+    "threshold": 0.9005662922813281,
+    "cr": 0.46511627906976744,
+    "cdr": 0.020833333333333332,
+    "positive_n": 129,
+    "retain_n": 144,
+    "false_negative_n": 69,
+    "false_positive_n": 3,
+    "auroc_diagnostic": 0.9273255813953488
+  }
+]

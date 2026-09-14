@@ -1,0 +1,13 @@
+# Work log
+
+## 2026-09-14T04:51:41+00:00 — Import reviewed reproduction snapshot
+
+**Purpose and authorization.** The author approved an independent repository copy, created this public target, and invited the source maintainer with write permission. This commit imports the completed SafeDecontam manuscript, source, evidence, English documentation and verified packages on `codex/iccc2026-reproduction`. It does not modify main or repository visibility, and no force push is used.
+
+**Provenance.** The reviewed source commit is `8d4685c3c0052875f2e8b0774eaed2b64b197ae9`; the private source delivery commit is `e5748609d9ebf7c8c20af11bdfc7c43a4dc1136f`. The independent target parent is `8369ef1fd6556d0e7665afb3ce69e052d8268b4d`. `SOURCE_PROVENANCE.json` and `PACKAGE_MANIFEST.json` record paths, version and hashes. Original private Git history, obsolete manuscript revisions, credentials and runtime caches are not imported. Selected historical experiment JSON remains explicitly historical.
+
+**Changes and validation.** Untraceable constructed manuscript values were replaced with a complete fixed-configuration ten-seed run (primary recall 90.34%). Related constructed and auxiliary results, Figure 1, code, inputs, score arrays, numerical weights and documentation were updated together. Independent external audits match the paper's ARC, HellaSwag and C-Eval rows. Main MMLU results and author-confirmed human 82/71/1 counts remain unchanged. The final PDF has five pages and preserves the baseline abstract and author block. Raw logs, numerical/visual QA, failure records and remaining human-label limitations are in `revisions/2026-09-14-external-review/`.
+
+**Packages.** Version `iccc2026-repro-20260914` contains the full PDF/LaTeX/code/evidence ZIP (SHA-256 `d5c677ff60e9fb99a562cf531159f0ca61328694b0565292ecc33eecfcfca986`) and source ZIP (`f6828efb23c92f8fca6bf3c72368eaa0864f9fe49cfa376454b5c9a477b11968`). Both pass CRC and all nested hash checks. The five scientific verification categories passed on the source tree; this snapshot preserves those files byte-for-byte. Root and reproduction integrity checks run before commit. The package version is distinct from an engine version.
+
+**Commands and synchronization.** Selective copy from the reviewed source checkout; generate root hashes; run `python3 tools/verify_package.py` and `python3 reproducibility/verify_delivery.py`; inspect staged paths; commit and push only `HEAD:refs/heads/codex/iccc2026-reproduction`. The release is pinned to this delivery commit. Final remote SHA, main, visibility and asset hashes are recorded separately after upload, avoiding self-referential commits.

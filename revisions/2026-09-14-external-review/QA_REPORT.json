@@ -1,0 +1,36 @@
+{
+  "baseline_commit": "7e1c30a8ada23e55784b5050a8a9628e0f2f4110",
+  "pdf_sha256": "386d1964d5226f55412f2d52e9e7f13e60df22adc50d87a2094dfaa00c0aee1b",
+  "tex_sha256": "053b0fc0e75f82c1fa2a2384cbc69ec16e8e2d454e8b7b3c566e7bfd832a9dec",
+  "figure_sha256": "0e12a951ca4ce18101326004ad49a1cad0152a7e8d8e6af5b54ea87f956a9470",
+  "checks": {
+    "abstract_unchanged": true,
+    "equations_unchanged": true,
+    "bibliography_unchanged": true,
+    "author_and_title_unchanged": true,
+    "five_page_alias_identical": true,
+    "no_funding_statement": true
+  },
+  "pages": 5,
+  "independent_constructed_checks": 5588,
+  "mmlu_available_evidence_checks": 72,
+  "external_datasets_reproduced": [
+    "ARC",
+    "hellaswag",
+    "ceval"
+  ],
+  "human_labels": "Author-confirmed 82/71/1; row-level labels not included; aggregate intervals recomputed.",
+  "build": "Three final pdflatex passes; no overfull/undefined/missing-character warnings. All five page renders visually reviewed.",
+  "limitations": [
+    "Constructed/auxiliary threshold selection remains exploratory.",
+    "The historical 93.70% run was not recovered; the current paper uses a new fixed-configuration run.",
+    "Exact-text-disjoint performance claim removed because underlying score evidence is unavailable.",
+    "Human AUROC/kappa/access provenance not independently replayable from this package."
+  ],
+  "recorded_deviations": [
+    "Initial marker command used a nonexistent workspace-relative path; resolved to the installed PDF skill marker before authoring.",
+    "Original-root package build and a second figure-size attempt produced six pages; shortened new caption and new explanatory text while retaining body font, margins and original figure width.",
+    "The initial one-seed diagnostic used an uncontrolled hash seed and did not recreate the historical MLP; the final ten-seed run records PYTHONHASHSEED=0 and single-thread settings.",
+    "Auxiliary CSV-default float parsing caused one cutoff-rounding verification mismatch; round-trip parsing and exact binary scores resolved it without changing results."
+  ]
+}

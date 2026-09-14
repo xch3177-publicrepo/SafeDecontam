@@ -1,0 +1,70 @@
+{
+  "checked_at_utc": "2026-09-14T04:41:16.659684+00:00",
+  "checks": [
+    {
+      "name": "mmlu",
+      "exit_code": 0,
+      "passed": true,
+      "command": [
+        "/private/tmp/safedecontam-auxiliary-trace-20260913/venv/bin/python",
+        "verification/verify_audit.py",
+        "--audit-dir",
+        "raw_search/results/main_audit",
+        "--output",
+        "/Users/chuhongxu/Documents/ChatGPT/RoboContract/tmp/pdfs/safedecontam-external-review-20260914/verification_integrated/mmlu.json"
+      ]
+    },
+    {
+      "name": "external",
+      "exit_code": 0,
+      "passed": true,
+      "command": [
+        "/private/tmp/safedecontam-auxiliary-trace-20260913/venv/bin/python",
+        "verification/verify_external_replay.py",
+        "evidence/external_reruns/ARC",
+        "evidence/external_reruns/hellaswag",
+        "evidence/external_reruns/ceval"
+      ]
+    },
+    {
+      "name": "constructed",
+      "exit_code": 0,
+      "passed": true,
+      "command": [
+        "/private/tmp/safedecontam-auxiliary-trace-20260913/venv/bin/python",
+        "verification/verify_current_constructed.py",
+        "evidence/constructed_current",
+        "--input-dir",
+        "inputs/constructed",
+        "--output",
+        "/Users/chuhongxu/Documents/ChatGPT/RoboContract/tmp/pdfs/safedecontam-external-review-20260914/verification_integrated/constructed.json"
+      ]
+    },
+    {
+      "name": "auxiliary",
+      "exit_code": 0,
+      "passed": true,
+      "command": [
+        "/private/tmp/safedecontam-auxiliary-trace-20260913/venv/bin/python",
+        "verification/verify_auxiliary_probes.py",
+        "evidence/auxiliary_reruns"
+      ]
+    },
+    {
+      "name": "calibration_unit_tests",
+      "exit_code": 0,
+      "passed": true,
+      "command": [
+        "/private/tmp/safedecontam-auxiliary-trace-20260913/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "calibration_reference",
+        "-v"
+      ]
+    }
+  ],
+  "human_row_level_replay": "Unavailable: final human label tables were not supplied.",
+  "scope": "Saved-score, model-inference and arithmetic checks; no new model fitting."
+}

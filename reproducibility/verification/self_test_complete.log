@@ -1,0 +1,11 @@
+test_auc_ties_and_reversed_ranking (test_verifiers.VerifierTests.test_auc_ties_and_reversed_ranking) ... ok
+test_binomial_zero_event_boundary_and_interval_symmetry (test_verifiers.VerifierTests.test_binomial_zero_event_boundary_and_interval_symmetry) ... ok
+test_fresh_human_labels_and_invalid_ids (test_verifiers.VerifierTests.test_fresh_human_labels_and_invalid_ids) ... ok
+test_group_damage_counts_group_once (test_current_constructed.ConstructedVerifierTests.test_group_damage_counts_group_once) ... ok
+test_saturated_probabilities_force_abstention (test_current_constructed.ConstructedVerifierTests.test_saturated_probabilities_force_abstention) ... ok
+test_threshold_prefers_same_recall_with_less_damage (test_current_constructed.ConstructedVerifierTests.test_threshold_prefers_same_recall_with_less_damage) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.431s
+
+OK

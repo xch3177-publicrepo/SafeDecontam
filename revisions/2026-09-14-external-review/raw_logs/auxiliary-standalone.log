@@ -1,0 +1,334 @@
+{
+  "condition": "fixed primary model; MCQ-local calibration; no pilot refitting",
+  "n": 238,
+  "thresholds": {
+    "mlp_margin": 56.39593357841531,
+    "core": 0.998464074587859
+  },
+  "by_silver": {
+    "cross-item (clean)": {
+      "n": 119,
+      "mlp_margin": {
+        "removed": 0,
+        "removal_pct": 0.0
+      },
+      "core": {
+        "removed": 0,
+        "removal_pct": 0.0
+      }
+    },
+    "web page bears answer": {
+      "n": 108,
+      "mlp_margin": {
+        "removed": 98,
+        "removal_pct": 90.74074074074075
+      },
+      "core": {
+        "removed": 0,
+        "removal_pct": 0.0
+      }
+    },
+    "web page bears question": {
+      "n": 11,
+      "mlp_margin": {
+        "removed": 9,
+        "removal_pct": 81.81818181818183
+      },
+      "core": {
+        "removed": 0,
+        "removal_pct": 0.0
+      }
+    }
+  }
+}
+{
+  "condition": "frozen English three-family model; cross-lingual train partition unused; local calibration only",
+  "n_groups": {
+    "cal": 72,
+    "test": 72
+  },
+  "n_pairs": {
+    "cal": 432,
+    "test": 432
+  },
+  "variants": {
+    "mlp_margin": {
+      "tau": 316.97138392216095,
+      "cal": {
+        "CR": 3.7037037037037033,
+        "CDR": 0.0,
+        "GCDR": 0.0,
+        "CRR": 100.0,
+        "FRPC": 0.0,
+        "damaged_groups": 0,
+        "total_groups": 72,
+        "removed_clean_pairs": 0,
+        "total_clean_pairs": 216,
+        "removed_contam": 8,
+        "total_contam": 216,
+        "U95_worst": 4.075368623063992,
+        "U95_by_family": {
+          "xling": 4.075368623063992
+        }
+      },
+      "test": {
+        "CR": 4.62962962962963,
+        "CDR": 0.0,
+        "GCDR": 0.0,
+        "CRR": 100.0,
+        "FRPC": 0.0,
+        "damaged_groups": 0,
+        "total_groups": 72,
+        "removed_clean_pairs": 0,
+        "total_clean_pairs": 216,
+        "removed_contam": 10,
+        "total_contam": 216,
+        "U95_worst": 4.075368623063992,
+        "U95_by_family": {
+          "xling": 4.075368623063992
+        }
+      },
+      "by_relation": {
+        "C0_exact": {
+          "n": 72,
+          "removed": 0
+        },
+        "C1_en_rephrase": {
+          "n": 72,
+          "removed": 8
+        },
+        "C1_zh_rephrase": {
+          "n": 72,
+          "removed": 2
+        },
+        "H1_same_topic": {
+          "n": 72,
+          "removed": 0
+        },
+        "H3_predating": {
+          "n": 72,
+          "removed": 0
+        },
+        "R_random": {
+          "n": 72,
+          "removed": 0
+        }
+      },
+      "calibration_clean_group_maxima": {
+        "xling": {
+          "xling_abstract_algebra_0008": -107.52455727927837,
+          "xling_abstract_algebra_0024": -112.77650616204566,
+          "xling_abstract_algebra_0062": -120.93989699519254,
+          "xling_abstract_algebra_0078": -120.39512171437302,
+          "xling_abstract_algebra_0079": -24.99180304632896,
+          "xling_abstract_algebra_0090": 145.05980563793128,
+          "xling_college_biology_0000": -45.3751453935106,
+          "xling_college_biology_0011": -42.93392391802764,
+          "xling_college_biology_0014": -176.25984199676046,
+          "xling_college_biology_0015": -57.65492527222955,
+          "xling_college_biology_0035": -56.66612010201934,
+          "xling_college_biology_0049": -56.4847950361625,
+          "xling_college_biology_0063": -47.620434745667275,
+          "xling_college_biology_0072": -72.967039150259,
+          "xling_college_biology_0080": -59.92965782640025,
+          "xling_college_biology_0086": -69.7366816131124,
+          "xling_college_biology_0090": -9.026803172554802,
+          "xling_college_biology_0091": -39.11907048430539,
+          "xling_college_biology_0102": -75.32660584957596,
+          "xling_college_biology_0115": 3.1915177701383097,
+          "xling_college_biology_0124": -21.977488543882842,
+          "xling_computer_security_0004": -15.393682040007642,
+          "xling_computer_security_0017": -86.97611469620516,
+          "xling_computer_security_0019": -72.28116522293111,
+          "xling_computer_security_0020": -155.63627403672635,
+          "xling_computer_security_0031": -68.16249941488537,
+          "xling_computer_security_0049": -67.58349426769074,
+          "xling_computer_security_0050": -201.73979004351057,
+          "xling_computer_security_0065": -130.26866698797755,
+          "xling_computer_security_0066": 313.175055046656,
+          "xling_computer_security_0075": -156.0249543254084,
+          "xling_computer_security_0080": 29.374062047066978,
+          "xling_computer_security_0086": -47.047981251460975,
+          "xling_computer_security_0088": -50.24475129488753,
+          "xling_computer_security_0089": -58.43187380746745,
+          "xling_computer_security_0094": 68.29945414246664,
+          "xling_computer_security_0096": -143.23994859773364,
+          "xling_conceptual_physics_0054": 287.6415733725842,
+          "xling_conceptual_physics_0092": 111.46707854930997,
+          "xling_conceptual_physics_0098": -109.34795234366952,
+          "xling_conceptual_physics_0122": -183.66847654305636,
+          "xling_conceptual_physics_0148": 58.386239580223865,
+          "xling_conceptual_physics_0177": -160.5512137055841,
+          "xling_conceptual_physics_0209": -183.11825702225858,
+          "xling_conceptual_physics_0210": 18.679030766089177,
+          "xling_conceptual_physics_0217": -7.759589588736228,
+          "xling_conceptual_physics_0220": -161.2727494283317,
+          "xling_econometrics_0007": -55.805525234870494,
+          "xling_econometrics_0017": -87.25500661238566,
+          "xling_econometrics_0018": -148.2839390091303,
+          "xling_econometrics_0035": -49.65727184104072,
+          "xling_econometrics_0039": -18.102043352247883,
+          "xling_econometrics_0046": 11.42304994109991,
+          "xling_econometrics_0047": 27.10276905808152,
+          "xling_econometrics_0049": 265.5193844232728,
+          "xling_econometrics_0053": -39.568823608913995,
+          "xling_econometrics_0060": -20.113551032443176,
+          "xling_econometrics_0079": -68.91649141245772,
+          "xling_econometrics_0084": -44.16599493487687,
+          "xling_econometrics_0090": 236.67256934931993,
+          "xling_econometrics_0095": 61.82558585717282,
+          "xling_econometrics_0102": -1.6846304594860246,
+          "xling_global_facts_0002": 156.36116704433582,
+          "xling_global_facts_0015": -87.66499423796675,
+          "xling_global_facts_0028": -112.93497992709315,
+          "xling_global_facts_0032": -152.69219341027278,
+          "xling_global_facts_0037": -121.47542972383721,
+          "xling_global_facts_0050": -146.04623135124544,
+          "xling_global_facts_0063": 53.35751536635143,
+          "xling_global_facts_0064": -101.6758839027151,
+          "xling_global_facts_0093": -130.8622921940345,
+          "xling_global_facts_0099": -167.3211201314518
+        }
+      }
+    },
+    "core": {
+      "tau": 0.9998805696523149,
+      "cal": {
+        "CR": 6.944444444444445,
+        "CDR": 0.0,
+        "GCDR": 0.0,
+        "CRR": 100.0,
+        "FRPC": 0.0,
+        "damaged_groups": 0,
+        "total_groups": 72,
+        "removed_clean_pairs": 0,
+        "total_clean_pairs": 216,
+        "removed_contam": 15,
+        "total_contam": 216,
+        "U95_worst": 4.075368623063992,
+        "U95_by_family": {
+          "xling": 4.075368623063992
+        }
+      },
+      "test": {
+        "CR": 4.166666666666666,
+        "CDR": 0.4629629629629629,
+        "GCDR": 1.3888888888888888,
+        "CRR": 99.53703703703704,
+        "FRPC": 0.1111111111111111,
+        "damaged_groups": 1,
+        "total_groups": 72,
+        "removed_clean_pairs": 1,
+        "total_clean_pairs": 216,
+        "removed_contam": 9,
+        "total_contam": 216,
+        "U95_worst": 6.419854270524359,
+        "U95_by_family": {
+          "xling": 6.419854270524359
+        }
+      },
+      "by_relation": {
+        "C0_exact": {
+          "n": 72,
+          "removed": 0
+        },
+        "C1_en_rephrase": {
+          "n": 72,
+          "removed": 8
+        },
+        "C1_zh_rephrase": {
+          "n": 72,
+          "removed": 1
+        },
+        "H1_same_topic": {
+          "n": 72,
+          "removed": 1
+        },
+        "H3_predating": {
+          "n": 72,
+          "removed": 0
+        },
+        "R_random": {
+          "n": 72,
+          "removed": 0
+        }
+      },
+      "calibration_clean_group_maxima": {
+        "xling": {
+          "xling_abstract_algebra_0008": 0.028387827995209145,
+          "xling_abstract_algebra_0024": 0.03090236002193726,
+          "xling_abstract_algebra_0062": 0.04677722154838546,
+          "xling_abstract_algebra_0078": 0.012252415235916195,
+          "xling_abstract_algebra_0079": 0.9995282007671585,
+          "xling_abstract_algebra_0090": 0.9998179163751837,
+          "xling_college_biology_0000": 0.5708607718354781,
+          "xling_college_biology_0011": 0.5867448513675373,
+          "xling_college_biology_0014": 0.4622960354144033,
+          "xling_college_biology_0015": 0.32696633971066397,
+          "xling_college_biology_0035": 0.3131401391640916,
+          "xling_college_biology_0049": 0.4908148559497319,
+          "xling_college_biology_0063": 0.6789244846649503,
+          "xling_college_biology_0072": 0.518635910981195,
+          "xling_college_biology_0080": 0.712198689712213,
+          "xling_college_biology_0086": 0.29306182132530617,
+          "xling_college_biology_0090": 0.4743002426019661,
+          "xling_college_biology_0091": 0.5105387496334765,
+          "xling_college_biology_0102": 0.2608338661639344,
+          "xling_college_biology_0115": 0.5412912211817942,
+          "xling_college_biology_0124": 0.2398862054458631,
+          "xling_computer_security_0004": 0.28460192507522974,
+          "xling_computer_security_0017": 0.23495770354871195,
+          "xling_computer_security_0019": 0.24897505108180717,
+          "xling_computer_security_0020": 0.4739875621942244,
+          "xling_computer_security_0031": 0.33572710028263003,
+          "xling_computer_security_0049": 0.5437208690236996,
+          "xling_computer_security_0050": 0.22913045312283223,
+          "xling_computer_security_0065": 0.007329966640612908,
+          "xling_computer_security_0066": 0.9970574162246499,
+          "xling_computer_security_0075": 0.4873961362887714,
+          "xling_computer_security_0080": 0.8044040522401817,
+          "xling_computer_security_0086": 0.49213330442962155,
+          "xling_computer_security_0088": 0.4981599065780689,
+          "xling_computer_security_0089": 0.5897360304749818,
+          "xling_computer_security_0094": 0.9990941797969862,
+          "xling_computer_security_0096": 0.20857899936197688,
+          "xling_conceptual_physics_0054": 0.9972473673791618,
+          "xling_conceptual_physics_0092": 0.5253507263565648,
+          "xling_conceptual_physics_0098": 0.03127396249298006,
+          "xling_conceptual_physics_0122": 0.05091961273142204,
+          "xling_conceptual_physics_0148": 0.5950756818458235,
+          "xling_conceptual_physics_0177": 0.06986343813600569,
+          "xling_conceptual_physics_0209": 0.03743273422464354,
+          "xling_conceptual_physics_0210": 0.5004659359427838,
+          "xling_conceptual_physics_0217": 0.7058271882887464,
+          "xling_conceptual_physics_0220": 0.3302126327208286,
+          "xling_econometrics_0007": 0.4980272053220953,
+          "xling_econometrics_0017": 0.27417379581653845,
+          "xling_econometrics_0018": 0.013482939940598558,
+          "xling_econometrics_0035": 0.5151503153952819,
+          "xling_econometrics_0039": 0.5814276757479648,
+          "xling_econometrics_0046": 0.038132677195236594,
+          "xling_econometrics_0047": 0.73619338517299,
+          "xling_econometrics_0049": 0.9546597120049346,
+          "xling_econometrics_0053": 0.5183526058640621,
+          "xling_econometrics_0060": 0.6302037330704454,
+          "xling_econometrics_0079": 0.009914385251943898,
+          "xling_econometrics_0084": 0.022796360522673455,
+          "xling_econometrics_0090": 0.9997824171341053,
+          "xling_econometrics_0095": 0.6936008772761537,
+          "xling_econometrics_0102": 0.052587149680247774,
+          "xling_global_facts_0002": 0.017837031150646818,
+          "xling_global_facts_0015": 0.026291374079644828,
+          "xling_global_facts_0028": 0.02992625791563469,
+          "xling_global_facts_0032": 0.008435299869645791,
+          "xling_global_facts_0037": 0.033153527911787155,
+          "xling_global_facts_0050": 0.037534015047652344,
+          "xling_global_facts_0063": 0.02921425248674236,
+          "xling_global_facts_0064": 0.03563889810764714,
+          "xling_global_facts_0093": 0.01161233166447706,
+          "xling_global_facts_0099": 0.054460014959415395
+        }
+      }
+    }
+  }
+}

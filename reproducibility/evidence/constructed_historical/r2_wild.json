@@ -1,0 +1,24 @@
+{
+ "n": 238,
+ "thresholds": {
+  "mlp_margin_mcq_local": 17.66900197217256,
+  "core_mcq_local": 0.9984640745874267
+ },
+ "by_silver": {
+  "cross-item (clean)": {
+   "n": 119,
+   "removal_margin": 0.8403361344537815,
+   "removal_core": 0.0
+  },
+  "web page bears answer": {
+   "n": 108,
+   "removal_margin": 90.74074074074075,
+   "removal_core": 0.0
+  },
+  "web page bears question": {
+   "n": 11,
+   "removal_margin": 72.72727272727273,
+   "removal_core": 0.0
+  }
+ }
+}

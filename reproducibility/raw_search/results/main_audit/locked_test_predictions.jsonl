@@ -1,0 +1,154 @@
+{"source_id": "college_medicine 145", "silver_category": "clean", "silver_label": 0, "score": 0.018030800022226814, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "philosophy 53", "silver_category": "clean", "silver_label": 0, "score": 0.006127174846789733, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "electrical_engineering 139", "silver_category": "clean", "silver_label": 0, "score": 0.01795178841147491, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_scenarios 565", "silver_category": "clean", "silver_label": 0, "score": 0.0019288144994198488, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "professional_psychology 591", "silver_category": "clean", "silver_label": 0, "score": 0.012682854882754795, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "professional_psychology 114", "silver_category": "clean", "silver_label": 0, "score": 0.019685423383563508, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "human_sexuality 9", "silver_category": "clean", "silver_label": 0, "score": 0.08223042799509772, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "marketing 102", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6923952928327831, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "miscellaneous 223", "silver_category": "clean", "silver_label": 0, "score": 0.07349358629204843, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "philosophy 28", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9554623279556527, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "nutrition 94", "silver_category": "clean", "silver_label": 0, "score": 0.04437193376019382, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "professional_psychology 78", "silver_category": "clean", "silver_label": 0, "score": 0.01949954856216427, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "security_studies 137", "silver_category": "clean", "silver_label": 0, "score": 0.2362293203130152, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "philosophy 32", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.687162932079624, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_disputes 24", "silver_category": "input contamination", "silver_label": 1, "score": 0.7190632631503288, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "college_physics 1", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9506789659963762, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "astronomy 76", "silver_category": "clean", "silver_label": 0, "score": 0.017405208591591934, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_geography 25", "silver_category": "clean", "silver_label": 0, "score": 0.2616330330362651, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "formal_logic 4", "silver_category": "clean", "silver_label": 0, "score": 0.658364429797069, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "college_medicine 80", "silver_category": "clean", "silver_label": 0, "score": 0.5443555109530589, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_scenarios 694", "silver_category": "clean", "silver_label": 0, "score": 0.0022264945924647212, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "professional_accounting 232", "silver_category": "input contamination", "silver_label": 1, "score": 0.8627969158739935, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "econometrics 40", "silver_category": "input contamination", "silver_label": 1, "score": 0.9503376329306754, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "nutrition 263", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7622982623377103, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "management 10", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.029434019578817486, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "elementary_mathematics 91", "silver_category": "input contamination", "silver_label": 1, "score": 0.8624182580065876, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_scenarios 231", "silver_category": "clean", "silver_label": 0, "score": 0.003565467600423141, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_disputes 29", "silver_category": "clean", "silver_label": 0, "score": 0.013526991187650498, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_government_and_politics 37", "silver_category": "clean", "silver_label": 0, "score": 0.379525853206483, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_macroeconomics 363", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9337254720256691, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_microeconomics 215", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.835002672656973, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "astronomy 56", "silver_category": "clean", "silver_label": 0, "score": 0.7953230567499975, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "nutrition 99", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9227548591481083, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_physics 77", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9509038354807734, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "marketing 132", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9297063084680641, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "marketing 18", "silver_category": "clean", "silver_label": 0, "score": 0.08878181061229022, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_psychology 540", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8776284927895055, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "professional_accounting 219", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9382220444469669, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "college_chemistry 54", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9202113735832051, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "nutrition 84", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.021593389040692638, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "sociology 43", "silver_category": "clean", "silver_label": 0, "score": 0.04944902547601475, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "professional_accounting 95", "silver_category": "clean", "silver_label": 0, "score": 0.3083537419886757, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "nutrition 177", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8565167257994354, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_psychology 223", "silver_category": "clean", "silver_label": 0, "score": 0.01161267221746225, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "clinical_knowledge 117", "silver_category": "clean", "silver_label": 0, "score": 0.003874905084090981, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "medical_genetics 95", "silver_category": "clean", "silver_label": 0, "score": 0.15533523586076747, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_microeconomics 212", "silver_category": "clean", "silver_label": 0, "score": 0.02136394618045234, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "professional_psychology 387", "silver_category": "clean", "silver_label": 0, "score": 0.04197079678565574, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "professional_psychology 104", "silver_category": "clean", "silver_label": 0, "score": 0.0065792710312085785, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_disputes 143", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9157965639916735, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "professional_psychology 411", "silver_category": "clean", "silver_label": 0, "score": 0.014534752374638193, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_macroeconomics 148", "silver_category": "clean", "silver_label": 0, "score": 0.029093571096171618, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_psychology 170", "silver_category": "input contamination", "silver_label": 1, "score": 0.5314494150143311, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_scenarios 562", "silver_category": "clean", "silver_label": 0, "score": 0.0018852822823934214, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "clinical_knowledge 100", "silver_category": "clean", "silver_label": 0, "score": 0.02342778314142181, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "virology 62", "silver_category": "input contamination", "silver_label": 1, "score": 0.8580568422620497, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "college_computer_science 71", "silver_category": "clean", "silver_label": 0, "score": 0.6690598920374571, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "elementary_mathematics 366", "silver_category": "clean", "silver_label": 0, "score": 0.37628598206457103, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "security_studies 126", "silver_category": "clean", "silver_label": 0, "score": 0.4105908360450141, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "sociology 194", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.02580292544483351, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "professional_psychology 12", "silver_category": "clean", "silver_label": 0, "score": 0.04336264202578122, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_chemistry 148", "silver_category": "clean", "silver_label": 0, "score": 0.6048631915483998, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_disputes 35", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9849299005129781, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "miscellaneous 117", "silver_category": "clean", "silver_label": 0, "score": 0.048852272039669895, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "clinical_knowledge 17", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9528219256193935, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "nutrition 249", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6683358357986722, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "marketing 164", "silver_category": "clean", "silver_label": 0, "score": 0.02970132116825775, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "computer_security 82", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9414670332431129, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "professional_psychology 575", "silver_category": "clean", "silver_label": 0, "score": 0.07502715764019899, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_european_history 79", "silver_category": "clean", "silver_label": 0, "score": 0.03392025779347154, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "business_ethics 78", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9932577431560814, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_scenarios 279", "silver_category": "clean", "silver_label": 0, "score": 0.0014242804128752511, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "us_foreign_policy 45", "silver_category": "clean", "silver_label": 0, "score": 0.023734292053396396, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_disputes 61", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8377351092300007, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "sociology 41", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8125342609304786, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "professional_accounting 165", "silver_category": "clean", "silver_label": 0, "score": 0.828012981210027, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "miscellaneous 354", "silver_category": "clean", "silver_label": 0, "score": 0.007018773947730119, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_macroeconomics 80", "silver_category": "clean", "silver_label": 0, "score": 0.04060390804684543, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_mathematics 10", "silver_category": "clean", "silver_label": 0, "score": 0.04479004880504463, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "miscellaneous 753", "silver_category": "clean", "silver_label": 0, "score": 0.2927662605801916, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "miscellaneous 180", "silver_category": "clean", "silver_label": 0, "score": 0.3935974175271123, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_disputes 248", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7977413831032876, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "nutrition 270", "silver_category": "clean", "silver_label": 0, "score": 0.003603555460489036, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "miscellaneous 196", "silver_category": "clean", "silver_label": 0, "score": 0.09815637436162511, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "philosophy 172", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6664414740358151, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "professional_psychology 556", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.765782258503435, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_macroeconomics 235", "silver_category": "clean", "silver_label": 0, "score": 0.08930445880353227, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "philosophy 94", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9908047418912607, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_macroeconomics 389", "silver_category": "clean", "silver_label": 0, "score": 0.10372748380919843, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_microeconomics 24", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9536130875440058, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "professional_medicine 227", "silver_category": "clean", "silver_label": 0, "score": 0.003986116183832224, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_us_history 22", "silver_category": "clean", "silver_label": 0, "score": 0.0661629150407519, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "prehistory 126", "silver_category": "clean", "silver_label": 0, "score": 0.01269099971366535, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "econometrics 49", "silver_category": "clean", "silver_label": 0, "score": 0.013323995399155346, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "moral_scenarios 577", "silver_category": "clean", "silver_label": 0, "score": 0.0013565449275821553, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_psychology 372", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9939149093036435, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "miscellaneous 525", "silver_category": "clean", "silver_label": 0, "score": 0.059690482881502596, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "clinical_knowledge 103", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.45855698369139863, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "miscellaneous 122", "silver_category": "clean", "silver_label": 0, "score": 0.014730948222547356, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "philosophy 191", "silver_category": "clean", "silver_label": 0, "score": 0.07993794956725403, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_psychology 365", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8311873879621834, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "public_relations 5", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7594630733165251, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_mathematics 133", "silver_category": "clean", "silver_label": 0, "score": 0.0092405916162257, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "nutrition 181", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.80221979263297, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "logical_fallacies 63", "silver_category": "clean", "silver_label": 0, "score": 0.01849385588151451, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "college_mathematics 24", "silver_category": "clean", "silver_label": 0, "score": 0.0032526367050417703, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "marketing 107", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9260732322192599, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "econometrics 72", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9081661944591283, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_psychology 522", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6719422371169158, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "virology 83", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7288136801460776, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "medical_genetics 63", "silver_category": "clean", "silver_label": 0, "score": 0.011029170004330683, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_government_and_politics 13", "silver_category": "clean", "silver_label": 0, "score": 0.12201989051275179, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "college_chemistry 41", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8102756843763766, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_macroeconomics 193", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9526940749704982, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "human_aging 134", "silver_category": "clean", "silver_label": 0, "score": 0.4695895890855759, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "security_studies 173", "silver_category": "clean", "silver_label": 0, "score": 0.009146608174087996, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_chemistry 100", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9140351935187432, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_scenarios 398", "silver_category": "clean", "silver_label": 0, "score": 0.0017869125450909005, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_microeconomics 191", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8143745198975276, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "human_aging 96", "silver_category": "clean", "silver_label": 0, "score": 0.06961549164646452, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_government_and_politics 75", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9363691406676755, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "elementary_mathematics 47", "silver_category": "clean", "silver_label": 0, "score": 0.0013253663951894492, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "college_biology 84", "silver_category": "clean", "silver_label": 0, "score": 0.24316244030508774, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "jurisprudence 71", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8589508241461398, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_macroeconomics 161", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7850028013869512, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_scenarios 394", "silver_category": "clean", "silver_label": 0, "score": 0.004576433048524745, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_mathematics 102", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8803974545772539, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "miscellaneous 692", "silver_category": "clean", "silver_label": 0, "score": 0.02270253138468426, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "sociology 187", "silver_category": "clean", "silver_label": 0, "score": 0.012524236609128265, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_psychology 495", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9429451550222279, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_biology 190", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9605236229266043, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_scenarios 245", "silver_category": "clean", "silver_label": 0, "score": 0.0019490819362829358, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_biology 112", "silver_category": "input contamination", "silver_label": 1, "score": 0.7570605044018534, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "medical_genetics 65", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8004437806948083, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_scenarios 356", "silver_category": "clean", "silver_label": 0, "score": 0.0028772985697206816, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_macroeconomics 316", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7980387572263571, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "security_studies 231", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.006839380782572892, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "conceptual_physics 142", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9385635599132471, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_scenarios 747", "silver_category": "clean", "silver_label": 0, "score": 0.0034679366865004104, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_mathematics 40", "silver_category": "input contamination", "silver_label": 1, "score": 0.9623725889018742, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "professional_accounting 230", "silver_category": "input contamination", "silver_label": 1, "score": 0.8025372875586576, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "international_law 101", "silver_category": "clean", "silver_label": 0, "score": 0.8868759498308023, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "human_aging 62", "silver_category": "clean", "silver_label": 0, "score": 0.008014510739192411, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_government_and_politics 19", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7644966239587164, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "global_facts 15", "silver_category": "clean", "silver_label": 0, "score": 0.07216725262945933, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_biology 261", "silver_category": "clean", "silver_label": 0, "score": 0.02797898768044368, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "marketing 183", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9212961320155997, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "elementary_mathematics 211", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8950481409716863, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "computer_security 24", "silver_category": "clean", "silver_label": 0, "score": 0.00958243920383341, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_geography 190", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9965222568256997, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "econometrics 62", "silver_category": "clean", "silver_label": 0, "score": 0.12532397763938957, "threshold": 0.6184764790877629, "removed": false}
+{"source_id": "high_school_macroeconomics 48", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8998582046799611, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "high_school_mathematics 2", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7665671837020094, "threshold": 0.6184764790877629, "removed": true}
+{"source_id": "moral_scenarios 634", "silver_category": "clean", "silver_label": 0, "score": 0.003500077765786384, "threshold": 0.6184764790877629, "removed": false}

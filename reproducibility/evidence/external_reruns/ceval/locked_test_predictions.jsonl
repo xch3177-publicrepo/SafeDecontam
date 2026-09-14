@@ -1,0 +1,273 @@
+{"source_id": "plant_protection-21", "silver_category": "input contamination", "silver_label": 1, "score": 0.017816530571046717, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "probability_and_statistics-6", "silver_category": "clean", "silver_label": 0, "score": 5.118145630866455e-05, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "teacher_qualification-14", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7559601134675288, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "teacher_qualification-9", "silver_category": "clean", "silver_label": 0, "score": 0.0009595938494994735, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-9", "silver_category": "clean", "silver_label": 0, "score": 0.795312704539732, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "teacher_qualification-43", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9593981996227178, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "professional_tour_guide-4", "silver_category": "clean", "silver_label": 0, "score": 0.03915778749243036, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_politics-20", "silver_category": "clean", "silver_label": 0, "score": 0.061978783565625875, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-32", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.05711674219153276, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "fire_engineer-2", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7477457240032099, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "computer_architecture-10", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7623835390582197, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_physics-8", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.4925788228252499, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "civil_servant-35", "silver_category": "clean", "silver_label": 0, "score": 0.007913577444484583, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "modern_chinese_history-1", "silver_category": "clean", "silver_label": 0, "score": 0.2560641921180605, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-49", "silver_category": "clean", "silver_label": 0, "score": 0.008492654260737654, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_physics-16", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9857239605128444, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "plant_protection-3", "silver_category": "clean", "silver_label": 0, "score": 0.008494576457199896, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-34", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9600168503639293, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "legal_professional-8", "silver_category": "clean", "silver_label": 0, "score": 0.0002758504942616057, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "advanced_mathematics-3", "silver_category": "clean", "silver_label": 0, "score": 0.0003173002514516933, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "electrical_engineer-4", "silver_category": "clean", "silver_label": 0, "score": 0.072089170223152, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "accountant-29", "silver_category": "clean", "silver_label": 0, "score": 0.8731283162167787, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-14", "silver_category": "clean", "silver_label": 0, "score": 0.03419326158663952, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "fire_engineer-12", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9823305332627263, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "metrology_engineer-13", "silver_category": "clean", "silver_label": 0, "score": 0.364752035980333, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-11", "silver_category": "clean", "silver_label": 0, "score": 0.004409667857376585, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "professional_tour_guide-8", "silver_category": "clean", "silver_label": 0, "score": 0.013017121686295294, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-28", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6301679765181609, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "mao_zedong_thought-15", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9659022164171883, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "accountant-48", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9924373148005483, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "marxism-16", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.37940718146455504, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-16", "silver_category": "clean", "silver_label": 0, "score": 0.14440434908301292, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_biology-13", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.3904134620906548, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "education_science-1", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6303867367089965, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "plant_protection-17", "silver_category": "clean", "silver_label": 0, "score": 0.01887594079551519, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_politics-8", "silver_category": "clean", "silver_label": 0, "score": 0.2387000188787172, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_physics-3", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9937666244313491, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "college_economics-53", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.34208746453035627, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "professional_tour_guide-21", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.059328933466495946, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_biology-6", "silver_category": "clean", "silver_label": 0, "score": 0.03251331546306698, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "clinical_medicine-19", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8917145454691423, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "clinical_medicine-4", "silver_category": "clean", "silver_label": 0, "score": 0.05923540579192062, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "professional_tour_guide-20", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8951180808201101, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "legal_professional-5", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.4510732233525746, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "modern_chinese_history-17", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7515434617607404, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "tax_accountant-11", "silver_category": "clean", "silver_label": 0, "score": 0.8923263378725139, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-13", "silver_category": "input contamination", "silver_label": 1, "score": 0.4064524686298606, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_biology-9", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.30080164829568257, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "civil_servant-43", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8598656223561012, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-17", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9535721781638125, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "law-3", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.996143804240792, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "art_studies-7", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9482168085584273, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "middle_school_mathematics-16", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9832538931861775, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "advanced_mathematics-17", "silver_category": "clean", "silver_label": 0, "score": 0.010045633967643831, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "physician-7", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9837079418478095, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "college_economics-2", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9974847955452258, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "art_studies-12", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.08448220648861642, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-15", "silver_category": "clean", "silver_label": 0, "score": 0.46055555324175773, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_chemistry-3", "silver_category": "clean", "silver_label": 0, "score": 0.0020925912540026913, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "operating_system-4", "silver_category": "clean", "silver_label": 0, "score": 0.016082887306292676, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "logic-8", "silver_category": "clean", "silver_label": 0, "score": 0.00018209164680496606, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-6", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9155758702834201, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "marxism-5", "silver_category": "clean", "silver_label": 0, "score": 0.03902494769280803, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_chemistry-4", "silver_category": "clean", "silver_label": 0, "score": 0.0054338467491411805, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_politics-5", "silver_category": "clean", "silver_label": 0, "score": 0.003495438321629159, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_physics-17", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9981947741512492, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "college_chemistry-20", "silver_category": "clean", "silver_label": 0, "score": 0.09170206239614395, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_biology-5", "silver_category": "clean", "silver_label": 0, "score": 0.5759065694846058, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "computer_architecture-11", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7574816236507342, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_geography-17", "silver_category": "clean", "silver_label": 0, "score": 0.019428831711548248, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_physics-9", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.5034108476826763, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "ideological_and_moral_cultivation-7", "silver_category": "clean", "silver_label": 0, "score": 0.11646213216037309, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "discrete_mathematics-13", "silver_category": "clean", "silver_label": 0, "score": 0.0018542929984739903, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "fire_engineer-3", "silver_category": "clean", "silver_label": 0, "score": 0.7596486205429575, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_mathematics-5", "silver_category": "clean", "silver_label": 0, "score": 0.0030143408786649545, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_politics-6", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.2284568534517507, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_chemistry-11", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8985517083298513, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_mathematics-4", "silver_category": "input contamination", "silver_label": 1, "score": 0.06302743673802276, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-8", "silver_category": "clean", "silver_label": 0, "score": 0.014227159439133667, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-21", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9959715894423231, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "teacher_qualification-15", "silver_category": "clean", "silver_label": 0, "score": 0.20400233595321285, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "sports_science-1", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9656248368754705, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "physician-18", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.829574979593517, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "civil_servant-29", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8479422931291073, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-17", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9340101475462026, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "basic_medicine-8", "silver_category": "clean", "silver_label": 0, "score": 0.045063366258726326, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_chemistry-0", "silver_category": "clean", "silver_label": 0, "score": 0.2149776592147556, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "electrical_engineer-23", "silver_category": "clean", "silver_label": 0, "score": 0.002654717078016372, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_geography-1", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.19610294651152663, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "electrical_engineer-35", "silver_category": "clean", "silver_label": 0, "score": 0.3708479184742539, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_mathematics-11", "silver_category": "clean", "silver_label": 0, "score": 0.010262565295702047, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "law-16", "silver_category": "clean", "silver_label": 0, "score": 0.0935388296085655, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "teacher_qualification-32", "silver_category": "clean", "silver_label": 0, "score": 0.0037308676466084375, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_physics-5", "silver_category": "clean", "silver_label": 0, "score": 0.13708490764553233, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "environmental_impact_assessment_engineer-1", "silver_category": "clean", "silver_label": 0, "score": 0.16693007689384656, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_history-1", "silver_category": "clean", "silver_label": 0, "score": 0.21236315967772876, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "metrology_engineer-19", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9942128516990447, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "tax_accountant-20", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9595815034457138, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "business_administration-26", "silver_category": "clean", "silver_label": 0, "score": 0.00028055522987905865, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_mathematics-3", "silver_category": "clean", "silver_label": 0, "score": 0.008000042157088584, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_chemistry-16", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.990727163521266, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "high_school_politics-1", "silver_category": "clean", "silver_label": 0, "score": 0.00019327624167704772, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "sports_science-15", "silver_category": "clean", "silver_label": 0, "score": 0.03052107303868535, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "chinese_language_and_literature-6", "silver_category": "clean", "silver_label": 0, "score": 0.5680849106472602, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "accountant-42", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9673979549832277, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "urban_and_rural_planner-21", "silver_category": "clean", "silver_label": 0, "score": 0.06140754308669533, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_physics-10", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8355094051241527, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "veterinary_medicine-4", "silver_category": "clean", "silver_label": 0, "score": 0.07040233330477075, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "physician-33", "silver_category": "clean", "silver_label": 0, "score": 0.1693821776349947, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "veterinary_medicine-13", "silver_category": "clean", "silver_label": 0, "score": 0.02095382687816732, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-32", "silver_category": "clean", "silver_label": 0, "score": 0.15216607280816855, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_biology-20", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.5326419960394803, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "advanced_mathematics-5", "silver_category": "clean", "silver_label": 0, "score": 0.0013129427359348292, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "electrical_engineer-2", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9436384741228685, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "legal_professional-16", "silver_category": "clean", "silver_label": 0, "score": 0.00010312396506263837, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-33", "silver_category": "clean", "silver_label": 0, "score": 0.35518343280602716, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-25", "silver_category": "clean", "silver_label": 0, "score": 0.30049921023999393, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "fire_engineer-23", "silver_category": "clean", "silver_label": 0, "score": 0.1551616310030064, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_physics-18", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.910093017614587, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "professional_tour_guide-10", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8719498066425879, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "operating_system-17", "silver_category": "clean", "silver_label": 0, "score": 0.29835593006143496, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_politics-0", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9699954149611887, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "sports_science-14", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.13955255345134907, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_mathematics-2", "silver_category": "clean", "silver_label": 0, "score": 0.03215118018541832, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-35", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8938539422569827, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "ideological_and_moral_cultivation-10", "silver_category": "clean", "silver_label": 0, "score": 0.006430325792428459, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-8", "silver_category": "clean", "silver_label": 0, "score": 0.00028070459979746885, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "education_science-25", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9770215424453623, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "middle_school_physics-4", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.961148068195011, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "college_economics-42", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7227425226830722, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "physician-28", "silver_category": "clean", "silver_label": 0, "score": 0.05341195787778729, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "teacher_qualification-25", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9824299476716427, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "high_school_biology-14", "silver_category": "clean", "silver_label": 0, "score": 0.03895583873240822, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "art_studies-1", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6656675723904119, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "mao_zedong_thought-12", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.04211507567385071, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "law-5", "silver_category": "clean", "silver_label": 0, "score": 0.8724742555548245, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_biology-17", "silver_category": "clean", "silver_label": 0, "score": 0.05895165679058304, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "logic-18", "silver_category": "clean", "silver_label": 0, "score": 0.7981427206295683, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_physics-17", "silver_category": "clean", "silver_label": 0, "score": 0.8199439827527137, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "electrical_engineer-22", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.848022643996839, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "basic_medicine-9", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8246231274490854, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "metrology_engineer-14", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9557789902962567, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "middle_school_physics-7", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9782530301320409, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "high_school_history-14", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9323644447217252, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "clinical_medicine-1", "silver_category": "clean", "silver_label": 0, "score": 0.29101625243867113, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_physics-17", "silver_category": "clean", "silver_label": 0, "score": 0.014414235412945432, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "education_science-10", "silver_category": "clean", "silver_label": 0, "score": 0.02531835956116856, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-16", "silver_category": "clean", "silver_label": 0, "score": 0.09762071325738549, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "civil_servant-46", "silver_category": "clean", "silver_label": 0, "score": 0.021944545051349976, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "law-14", "silver_category": "clean", "silver_label": 0, "score": 0.009509869535676348, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "computer_architecture-18", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9836603525817628, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "art_studies-2", "silver_category": "clean", "silver_label": 0, "score": 0.008599252803664272, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "mao_zedong_thought-11", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9978694540298462, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "discrete_mathematics-7", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8531877051262021, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "legal_professional-22", "silver_category": "clean", "silver_label": 0, "score": 0.0004068776750924372, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "computer_network-8", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9916950635208858, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "electrical_engineer-21", "silver_category": "clean", "silver_label": 0, "score": 0.003764855111738864, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "tax_accountant-9", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.40569841107856675, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_chemistry-6", "silver_category": "clean", "silver_label": 0, "score": 0.004682861110386788, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-3", "silver_category": "clean", "silver_label": 0, "score": 0.2778708072011274, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "basic_medicine-17", "silver_category": "clean", "silver_label": 0, "score": 0.002192403101550912, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "plant_protection-7", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7052922260408353, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "veterinary_medicine-11", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7356740735561835, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "physician-31", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7050468619480702, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_history-18", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.4672100273246566, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "marxism-0", "silver_category": "clean", "silver_label": 0, "score": 0.9151692532904356, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "middle_school_politics-0", "silver_category": "clean", "silver_label": 0, "score": 0.0005252282219835111, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "environmental_impact_assessment_engineer-26", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9312471796356585, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "middle_school_biology-18", "silver_category": "clean", "silver_label": 0, "score": 0.6539407518261533, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_mathematics-0", "silver_category": "clean", "silver_label": 0, "score": 5.3695876776847956e-05, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "operating_system-14", "silver_category": "clean", "silver_label": 0, "score": 0.0033435484004915306, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_politics-3", "silver_category": "clean", "silver_label": 0, "score": 0.0014356605605025292, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "mao_zedong_thought-9", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9704013810029283, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "urban_and_rural_planner-19", "silver_category": "clean", "silver_label": 0, "score": 0.10278795839319521, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "professional_tour_guide-0", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.5466759045154083, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-24", "silver_category": "clean", "silver_label": 0, "score": 0.06172252609796916, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "accountant-4", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9798291762963829, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "high_school_chinese-13", "silver_category": "clean", "silver_label": 0, "score": 0.04497062696131405, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "civil_servant-27", "silver_category": "clean", "silver_label": 0, "score": 0.2645741208305154, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_history-3", "silver_category": "clean", "silver_label": 0, "score": 0.0048770089214567386, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_chinese-12", "silver_category": "clean", "silver_label": 0, "score": 0.904636953196217, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "professional_tour_guide-1", "silver_category": "clean", "silver_label": 0, "score": 0.016678877708301842, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-18", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9231596480765966, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "ideological_and_moral_cultivation-12", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9879409280986703, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "chinese_language_and_literature-5", "silver_category": "clean", "silver_label": 0, "score": 0.006454601503979832, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "computer_architecture-15", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.965562049006309, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "high_school_geography-13", "silver_category": "clean", "silver_label": 0, "score": 0.3523753730091793, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "art_studies-20", "silver_category": "clean", "silver_label": 0, "score": 0.041832613070110936, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "fire_engineer-21", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9531228765666374, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "college_programming-27", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9605838305148335, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "high_school_physics-4", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9973512888014142, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "veterinary_medicine-7", "silver_category": "clean", "silver_label": 0, "score": 0.0009543696923650533, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "professional_tour_guide-28", "silver_category": "clean", "silver_label": 0, "score": 0.05649835240789681, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "plant_protection-6", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7888365262473077, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "legal_professional-15", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6616697523701665, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "advanced_mathematics-6", "silver_category": "clean", "silver_label": 0, "score": 0.0004423094110525983, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "electrical_engineer-1", "silver_category": "clean", "silver_label": 0, "score": 0.09791780417324306, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-34", "silver_category": "clean", "silver_label": 0, "score": 0.25417516947758206, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_chemistry-7", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.43104401211571597, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_chemistry-12", "silver_category": "clean", "silver_label": 0, "score": 0.00040082699429190794, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-6", "silver_category": "clean", "silver_label": 0, "score": 0.8469789703992392, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "environmental_impact_assessment_engineer-11", "silver_category": "clean", "silver_label": 0, "score": 0.05169158146540684, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "chinese_language_and_literature-13", "silver_category": "clean", "silver_label": 0, "score": 0.4009929805749429, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-8", "silver_category": "clean", "silver_label": 0, "score": 0.9050274871429784, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "mao_zedong_thought-4", "silver_category": "clean", "silver_label": 0, "score": 0.1804013883588487, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_history-0", "silver_category": "clean", "silver_label": 0, "score": 0.6013243123369802, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "art_studies-3", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7090053173257755, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "mao_zedong_thought-10", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9913173080561024, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "chinese_language_and_literature-9", "silver_category": "clean", "silver_label": 0, "score": 0.03970660332080018, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-13", "silver_category": "input contamination", "silver_label": 1, "score": 0.31863783866713985, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "tax_accountant-42", "silver_category": "clean", "silver_label": 0, "score": 0.022205825171824563, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "professional_tour_guide-24", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9352313939476632, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "electrical_engineer-6", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6588292495822732, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "environmental_impact_assessment_engineer-9", "silver_category": "clean", "silver_label": 0, "score": 0.08146822033771924, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-5", "silver_category": "clean", "silver_label": 0, "score": 0.004054196785098137, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "modern_chinese_history-18", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9385664911517975, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "mao_zedong_thought-21", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9898963445557815, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "veterinary_medicine-17", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9699209535746166, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "physician-37", "silver_category": "clean", "silver_label": 0, "score": 0.006388352321820351, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "veterinary_medicine-0", "silver_category": "clean", "silver_label": 0, "score": 0.03556626757179649, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_chemistry-7", "silver_category": "clean", "silver_label": 0, "score": 0.029644873701542354, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-20", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6426986648442736, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_physics-14", "silver_category": "input contamination", "silver_label": 1, "score": 0.6432773584488315, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "modern_chinese_history-3", "silver_category": "clean", "silver_label": 0, "score": 0.3813588155064002, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-25", "silver_category": "clean", "silver_label": 0, "score": 0.055328922428033264, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_biology-6", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9547028864494557, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "operating_system-12", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.12885697103179314, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "physician-8", "silver_category": "clean", "silver_label": 0, "score": 0.08065248640479132, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "advanced_mathematics-18", "silver_category": "clean", "silver_label": 0, "score": 0.018446233670285177, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "business_administration-22", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.7343862893413394, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-26", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6206900535051337, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "computer_network-2", "silver_category": "clean", "silver_label": 0, "score": 0.052163459951728545, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "education_science-20", "silver_category": "clean", "silver_label": 0, "score": 0.285828810265962, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "professional_tour_guide-23", "silver_category": "input contamination", "silver_label": 1, "score": 0.8165005006411359, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-29", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9862396008943104, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "mao_zedong_thought-17", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.6355612363272134, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_geography-5", "silver_category": "input contamination", "silver_label": 1, "score": 0.8877350298259324, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "chinese_language_and_literature-14", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9557376763185065, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "middle_school_physics-12", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8447735894619433, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_politics-9", "silver_category": "input contamination", "silver_label": 1, "score": 0.8712178911187572, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "electrical_engineer-27", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9690793978672755, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "art_studies-11", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.39085921276701463, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_chemistry-10", "silver_category": "clean", "silver_label": 0, "score": 0.6743450036445174, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-16", "silver_category": "input contamination", "silver_label": 1, "score": 0.14914129989895686, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_chemistry-0", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9981177833870968, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "fire_engineer-11", "silver_category": "clean", "silver_label": 0, "score": 0.0022670851764166854, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_programming-17", "silver_category": "clean", "silver_label": 0, "score": 0.009135422856160626, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "ideological_and_moral_cultivation-18", "silver_category": "clean", "silver_label": 0, "score": 0.02813280061381085, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-6", "silver_category": "clean", "silver_label": 0, "score": 0.015428696419035378, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_history-10", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.867209028056849, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-0", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9610311490202934, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "law-13", "silver_category": "input contamination", "silver_label": 1, "score": 0.9382002266793837, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "high_school_mathematics-13", "silver_category": "clean", "silver_label": 0, "score": 0.048758791346215476, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "veterinary_medicine-20", "silver_category": "clean", "silver_label": 0, "score": 0.0007870497802066155, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "urban_and_rural_planner-28", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.17581190169043087, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "accountant-30", "silver_category": "input contamination", "silver_label": 1, "score": 0.825594743372288, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "high_school_biology-10", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9606105205177606, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "civil_servant-16", "silver_category": "clean", "silver_label": 0, "score": 0.07308502004544438, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "modern_chinese_history-15", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.2237379600378428, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "professional_tour_guide-22", "silver_category": "clean", "silver_label": 0, "score": 0.017695807506402823, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_physics-0", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9687852935496157, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "metrology_engineer-5", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9119377789859235, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "high_school_chinese-1", "silver_category": "clean", "silver_label": 0, "score": 0.0017233012243409774, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "computer_network-3", "silver_category": "clean", "silver_label": 0, "score": 0.1348938423044537, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "college_economics-31", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.33984640344815176, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "tax_accountant-33", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8702342810553875, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "fire_engineer-1", "silver_category": "clean", "silver_label": 0, "score": 0.16113369368076327, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "discrete_mathematics-11", "silver_category": "clean", "silver_label": 0, "score": 0.011596533618642784, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "middle_school_biology-7", "silver_category": "clean", "silver_label": 0, "score": 0.01974211070056596, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "art_studies-26", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9350471251933251, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "college_chemistry-22", "silver_category": "input contamination", "silver_label": 1, "score": 0.9523503219303707, "threshold": 0.9005662922813281, "removed": true}
+{"source_id": "college_programming-21", "silver_category": "clean", "silver_label": 0, "score": 0.6734250430186218, "threshold": 0.9005662922813281, "removed": false}
+{"source_id": "art_studies-30", "silver_category": "clean", "silver_label": 0, "score": 0.4101761783724494, "threshold": 0.9005662922813281, "removed": false}

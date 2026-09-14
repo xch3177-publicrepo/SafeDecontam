@@ -1,0 +1,156 @@
+{
+  "data_source": "Raw Bing responses + released ARC silver annotations from Li et al. 2024",
+  "dataset": "ARC",
+  "split_salt": "",
+  "limitations": [
+    "Labels are search-overlap silver annotations, not independent human judgments.",
+    "Evidence is title/snippet bundles, not archived full pages."
+  ],
+  "item_count": 1167,
+  "split_counts": {
+    "train": 483,
+    "validation": 231,
+    "calibration": 213,
+    "test": 240
+  },
+  "category_counts": {
+    "clean": 1089,
+    "input contamination": 25,
+    "input-and-label contamination": 53
+  },
+  "validation_model_selection": {
+    "word_tfidf": {
+      "cr": 0.1875,
+      "cdr": 0.05116279069767442,
+      "gcdr": 0.05116279069767442,
+      "positive_n": 16,
+      "retain_n": 215,
+      "false_negative_n": 13,
+      "false_positive_n": 11,
+      "threshold": 0.8845555558924912,
+      "auroc": 0.788953488372093
+    },
+    "char_tfidf": {
+      "cr": 0.125,
+      "cdr": 0.05116279069767442,
+      "gcdr": 0.05116279069767442,
+      "positive_n": 16,
+      "retain_n": 215,
+      "false_negative_n": 14,
+      "false_positive_n": 11,
+      "threshold": 0.8777995318517148,
+      "auroc": 0.7744186046511627
+    },
+    "logistic": {
+      "cr": 0.3125,
+      "cdr": 0.05116279069767442,
+      "gcdr": 0.05116279069767442,
+      "positive_n": 16,
+      "retain_n": 215,
+      "false_negative_n": 11,
+      "false_positive_n": 11,
+      "threshold": 0.3330115275441779,
+      "auroc": 0.8005813953488372
+    },
+    "mlp16": {
+      "cr": 0.25,
+      "cdr": 0.05116279069767442,
+      "gcdr": 0.05116279069767442,
+      "positive_n": 16,
+      "retain_n": 215,
+      "false_negative_n": 12,
+      "false_positive_n": 11,
+      "threshold": 0.2496184235993603,
+      "auroc": 0.6190406976744186
+    }
+  },
+  "selected_scorer": "logistic",
+  "dense_model": null,
+  "adapter_variant": "lexical+constraint (dense disabled)",
+  "calibration": {
+    "abstained": false,
+    "epsilon": 0.05,
+    "alpha": 0.05,
+    "clean_groups": 199,
+    "allowed_exceedances": 4,
+    "upper_bound": 0.045404499274459595,
+    "threshold": 0.3825637933297938
+  },
+  "locked_test": {
+    "cr": 0.4117647058823529,
+    "cdr": 0.02242152466367713,
+    "gcdr": 0.02242152466367713,
+    "positive_n": 17,
+    "retain_n": 223,
+    "false_negative_n": 10,
+    "false_positive_n": 5,
+    "cluster_bootstrap_95_ci": {
+      "cr": [
+        0.17647058823529413,
+        0.6500543478260867
+      ],
+      "cdr": [
+        0.004524886877828055,
+        0.044444444444444446
+      ],
+      "gcdr": [
+        0.004524886877828055,
+        0.044444444444444446
+      ]
+    },
+    "auroc_diagnostic": 0.9053020311263519,
+    "recall_by_category": {
+      "input contamination": {
+        "n": 5,
+        "removed": 4,
+        "recall": 0.8
+      },
+      "input-and-label contamination": {
+        "n": 12,
+        "removed": 3,
+        "recall": 0.25
+      }
+    }
+  },
+  "budget_sensitivity": {
+    "0.025": {
+      "abstained": false,
+      "threshold": 0.48024556294724907,
+      "allowed_exceedances": 1,
+      "upper_bound": 0.02361544364196703,
+      "cr": 0.29411764705882354,
+      "cdr": 0.004484304932735426,
+      "gcdr": 0.004484304932735426,
+      "positive_n": 17,
+      "retain_n": 223,
+      "false_negative_n": 12,
+      "false_positive_n": 1
+    },
+    "0.05": {
+      "abstained": false,
+      "threshold": 0.3825637933297938,
+      "allowed_exceedances": 4,
+      "upper_bound": 0.045404499274459595,
+      "cr": 0.4117647058823529,
+      "cdr": 0.02242152466367713,
+      "gcdr": 0.02242152466367713,
+      "positive_n": 17,
+      "retain_n": 223,
+      "false_negative_n": 10,
+      "false_positive_n": 5
+    },
+    "0.1": {
+      "abstained": false,
+      "threshold": 0.24467287318422415,
+      "allowed_exceedances": 12,
+      "upper_bound": 0.09587165799540366,
+      "cr": 0.6470588235294118,
+      "cdr": 0.03139013452914798,
+      "gcdr": 0.03139013452914798,
+      "positive_n": 17,
+      "retain_n": 223,
+      "false_negative_n": 6,
+      "false_positive_n": 7
+    }
+  }
+}
