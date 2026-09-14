@@ -1,0 +1,38 @@
+--- v2/SafeDecontam_ICCC2026_revised.tex
++++ local-review-candidate/SafeDecontam_ICCC2026_revised.tex
+@@ -108,7 +108,7 @@
+ 
+ Structured MATH perturbations show why lexical similarity cannot determine whether a changed number reverses the answer~\cite{huang2025}. The adapter records numbers, relation cues, target tokens, entities, and units; counts answer support only in conclusion-like context; checks the first four available constraints; and uses chronology only with a reliable predating source~\cite{miao2020}.
+ 
+-Candidate scorers include each individual feature, their mean, similarity-plus-chronology and full-evidence logistic models, and a 16-unit multilayer perceptron (MLP) with rectified-linear-unit activation, quasi-Newton optimization, and $\ell_2$ regularization; validation selects one scorer before calibration begins. MLP thresholds use the unsquashed margin, which avoids boundary ties from saturated logits. The protocol separates fitting, calibration on clean-group maxima, and one-time evaluation under the locked decision rule.
++Candidate scorers include each individual feature, their mean, no-constraint (similarity-plus-chronology) and full-evidence logistic models, and a 16-unit multilayer perceptron (MLP) with rectified-linear-unit activation, quasi-Newton optimization, and $\ell_2$ regularization; validation selects one scorer before calibration begins. MLP thresholds use the unsquashed margin, which avoids boundary ties from saturated logits. The protocol separates fitting, calibration on clean-group maxima, and one-time evaluation under the locked decision rule.
+ 
+ \subsection{Clean-Only Exact Calibration}
+ For family $h$, let $R_{hj}$ be the retain-labeled candidates of calibration source group $j$ and $Q_{hj}=\max_{i\in R_{hj}} s_i$ their largest score; $n_h$ counts the calibration groups with a nonempty retain set; group $j$ is damaged exactly when this maximum crosses the threshold. For $k$ allowed exceedances, the one-sided upper bound is
+@@ -147,7 +147,7 @@
+ \subsection{Partitions, Audit, and Protocol}
+ Within each family, source groups enter deterministic 40/30/30 training, calibration, and test partitions. Derivatives remain with their source. Grouping precedes representation fitting, preventing a transformed item from training a scorer later tested on that source.
+ 
+-Some retain documents pair with multiple source items, so identical text may occur in different partitions without splitting a group.
++Some retain documents pair with multiple source items, so identical text may occur in different partitions without splitting a group. The current rerun does not assess robustness under strict cross-partition text deduplication.
+ 
+ The raw-search audit uses a separate 40/20/20/20 source-item split: training fits representations and scorers, validation selects one scorer, calibration turns retain-group maxima into a threshold for a 5\% budget at 95\% confidence, and test runs once. Repeated uniform resource locators are removed across splits, and retain assignments, threshold, software, data commit, and 256-bit Secure Hash Algorithm hashes are recorded to enable reproducible audit replay. Code and selected data are available at \url{https://github.com/xch3177-publicrepo/SafeDecontam}.
+ 
+@@ -227,7 +227,7 @@
+ \section{Results}
+ \label{sec:results}
+ \subsection{Constructed-Pair Sensitivity Study}
+-On the constructed arithmetic and MCQ pairs in Table~\ref{tab:constructed}, the fixed-configuration MLP-margin rerun reaches 90.34\% CR, 0.68\% pair CDR, and 2.01\% GCDR, and ten grouped re-splits yield $86.67\pm7.50\%$ recall (population SD; 69.99\%--95.03\%). Because configuration and threshold selection inspect calibration outcomes, the associated 4.67\% calibration bound is descriptive rather than a fresh certificate; Section~\ref{sec:raw} reports the final protocol-valid evaluation.
++On the constructed arithmetic and MCQ pairs in Table~\ref{tab:constructed}, the fixed-configuration MLP-margin rerun reaches 90.34\% CR, 0.68\% pair CDR, and 2.01\% GCDR, and ten grouped re-splits yield $86.67\pm7.50\%$ recall (population SD; 69.99\%--95.03\%). Because configuration and threshold selection inspect calibration outcomes, the MCQ calibration bound of 4.67\% is descriptive rather than a fresh certificate; Section~\ref{sec:raw} reports the final protocol-valid evaluation.
+ 
+ Recall is 92.21\% for arithmetic and 85.43\% for MCQ under the shared threshold, and 68.42\% for MATH under its local threshold; the smaller MATH reservoir also widens its split range. Raising the prespecified group budget from 5\% to 10\% moves the margin threshold from 56.40 to 10.67, raising CR to 97.93\%, pair CDR to 1.00\%, and GCDR to 3.30\%; finite deployment budgets remain fixed before test inspection.
+ 
+@@ -250,7 +250,7 @@
+ \section{Discussion and Validity}
+ GSM-Plus and GSM-Symbolic show that broad similarity can survive answer changes, while false negatives cluster in paraphrases and short fragments whose decisive content activates few constraints, so the learned combiner and its score scale remain part of the policy. Threshold transfer fails in the same way: arithmetic or MCQ cutoffs delete substantial legitimate MATH material, and English-trained features miss cross-lingual contamination. Threshold transfer violates the matched-distribution assumption: weighted conformal calibration can bound the coverage loss under bounded drift~\cite{barber2023}, whereas SafeDecontam requires a matched reservoir per family and abstains otherwise.
+ 
+-Figure~\ref{fig:tradeoff} separates ranking from policy performance: similar rankings can yield different clean-retention tradeoffs, so policy evaluation reports CR, CDR, and GCDR as decision metrics, retaining AUROC only as a ranking summary~\cite{bates2021}.
++Figure~\ref{fig:tradeoff} compares calibrated operating points; policy evaluation reports CR, CDR, and GCDR as decision metrics, retaining AUROC only as a ranking summary~\cite{bates2021}.
+ 
+ The finite-sample statement bounds population risk at the stated confidence~\cite{clopper1934}, and the 4.13\% one-sided upper bound of the adjudicated audit retains sampling uncertainty. Retrieval must favor sensitivity because misses are unrecoverable~\cite{robertson2009}, whereas deletion uses the frozen adapter, scorer, and threshold~\cite{bates2021}.
+ 

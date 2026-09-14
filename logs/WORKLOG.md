@@ -21,3 +21,13 @@
 **Package version and verification.** `iccc2026-repro-20260914-v2` adds the compact PDF/LaTeX ZIP (`538d70e7d122a14db5ff4d592259cebdcbcd03d84b137adfa2d69069b51fbdc8`) and updates the full reproduction ZIP (`fd0e3985fe727e4b7e9b59d970a53e3168660be274474c7588914671d27062f2`). The experimental ZIP remains byte-identical to v1. All ZIPs pass CRC/path/hash checks. Extracting the compact ZIP, checking its manifest, and executing `bash build.sh` regenerates the same five-page PDF byte-for-byte. All five approved pages passed visual QA. Trial failures and evidence limitations remain recorded under the dated availability revision. No experiments were rerun.
 
 **Synchronization.** Refresh root integrity, review staged scope, commit, and push only `HEAD:refs/heads/codex/availability-20260914`. Publish the v2 release pinned to this commit; preserve prior releases. A pull request can present the update for author-controlled merge. Final branch/main/visibility/release/asset-digest checks are saved in a separate local synchronization record after upload. The package tag is not an engine version.
+
+## 2026-09-14T06:28:52.308970+00:00 — Approved final four wording changes
+
+**Authorization.** The author reviewed the local five-page candidate and explicitly requested pushing it to main. This applies to the independent public SafeDecontam repository. No force push or history rewrite is used; the private source is synchronized on its existing camera-ready branch.
+
+**Inputs and changes.** Public v2 source `5e466688c6754468ebe36b0718384d2219eed176`; current public main `06d02802ec20505382ede566179d972c5ed990fa`. Exactly four prose edits are documented under `revisions/2026-09-14-final-wording/`. Approved PDF SHA-256: `8e8a867104c67bbd504e69be9e954fb6492ae470f705ce8fee85f0f16729af26`; TeX SHA-256: `ce06082e726fd0a436a265cd210b0c9093a728495c0495b0422891c7e2b8b9c8`. No numerical, experimental, abstract, author, or formatting change.
+
+**Validation.** Exact source replacements and numeric tokens checked; all five pages visually inspected; three-pass build free of overfull boxes, undefined references, missing characters and LaTeX errors. A fresh compact ZIP extraction rebuilt a byte-identical PDF. Validation is preserved with the revision; no new experiment or PDF eXpress certificate is claimed.
+
+**Outcome and next synchronization.** This source snapshot precedes v3 package assembly. Review staged paths and commit; prepare v3 packages, verify integrity, and fast-forward push public main. Keep prior releases and experimental evidence unchanged. Final remote commit, visibility, release and uploaded asset hashes will be verified and recorded after upload.
