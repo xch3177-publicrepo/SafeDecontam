@@ -1,0 +1,25 @@
+{
+  "status": "independent rerun; not a recovered historical result",
+  "completed_at_utc": "2026-09-14T04:32:05.556394+00:00",
+  "command_arguments": [
+    "--dataset",
+    "hellaswag",
+    "--disable-dense",
+    "--output",
+    "/private/tmp/safedecontam-auxiliary-trace-20260913/replay_reruns/hellaswag"
+  ],
+  "python": "3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "scikit_learn": "1.5.2",
+  "source_sha256": {
+    "run_raw_bing_item_audit.py": "aca54d1e455fbf6e54630f2ef554cf1d7145d9e01be9b9779fd612c6d14aa2d5",
+    "run_web_evidence_experiment.py": "b736a3357282bf2fac7c90434a3cdfa21131be97fd1b2580b4166555860a2524",
+    "run_external_with_replay.py": "159e2b5f87b5656af333a5e11f4c4f633587b29858db158d643b6238f5a23125"
+  },
+  "data_source": "Raw Bing responses + released hellaswag silver annotations from Li et al. 2024",
+  "annotation_sha256": "4481b8e4914f8c15eeef46990e59eb6f6206963544f77acb89586cdeed4b99af",
+  "dataset_sha256": "0f0260c2bbb3280289e37404343fed661eedba761889f08410cff6f25e78bb69",
+  "capture": "Read main return-frame locals after the unchanged original audit completes."
+}

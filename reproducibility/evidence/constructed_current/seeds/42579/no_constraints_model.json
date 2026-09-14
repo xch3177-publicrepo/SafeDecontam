@@ -1,0 +1,36 @@
+{
+  "feature_columns": [
+    "ngram4",
+    "shingle3",
+    "bm25n",
+    "wcos",
+    "ccos",
+    "lsa",
+    "predates"
+  ],
+  "estimator": "LogisticRegression",
+  "params": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 2000,
+    "multi_class": "deprecated",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "classes": [
+    0,
+    1
+  ],
+  "n_iter": [
+    33
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "source_results_sha256": "c40a1bb1f72618503c8ff67f5ac79009feb6e978c103e531782ea25c58b89e5a",
+  "scope": "Eight saved calibrated operating points; no curves or interpolation",
+  "points": [
+    {
+      "scorer": "core",
+      "budget": "eps5",
+      "recall": 26.52873563218391,
+      "clean_retention": 99.88019169329073,
+      "source_key": "primary.variants.core.eps5.test"
+    },
+    {
+      "scorer": "core",
+      "budget": "eps10",
+      "recall": 50.804597701149426,
+      "clean_retention": 99.56070287539937,
+      "source_key": "primary.variants.core.eps10.test"
+    },
+    {
+      "scorer": "mlp_margin",
+      "budget": "eps5",
+      "recall": 90.3448275862069,
+      "clean_retention": 99.32108626198082,
+      "source_key": "primary.variants.mlp_margin.eps5.test"
+    },
+    {
+      "scorer": "mlp_margin",
+      "budget": "eps10",
+      "recall": 97.93103448275862,
+      "clean_retention": 99.00159744408946,
+      "source_key": "primary.variants.mlp_margin.eps10.test"
+    },
+    {
+      "scorer": "no_constraints",
+      "budget": "eps5",
+      "recall": 41.6551724137931,
+      "clean_retention": 99.36102236421725,
+      "source_key": "primary.variants.no_constraints.eps5.test"
+    },
+    {
+      "scorer": "no_constraints",
+      "budget": "eps10",
+      "recall": 49.747126436781606,
+      "clean_retention": 98.64217252396166,
+      "source_key": "primary.variants.no_constraints.eps10.test"
+    },
+    {
+      "scorer": "fusion",
+      "budget": "eps5",
+      "recall": 0.9195402298850575,
+      "clean_retention": 99.60063897763578,
+      "source_key": "primary.variants.fusion.eps5.test"
+    },
+    {
+      "scorer": "fusion",
+      "budget": "eps10",
+      "recall": 2.1149425287356323,
+      "clean_retention": 98.8817891373802,
+      "source_key": "primary.variants.fusion.eps10.test"
+    }
+  ]
+}

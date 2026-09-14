@@ -1,0 +1,51 @@
+{
+  "columns": [
+    "wcos",
+    "ccos",
+    "lsa",
+    "ngram4",
+    "shingle3",
+    "bm25n",
+    "a_num",
+    "a_rel",
+    "a_tgt",
+    "a_ent",
+    "a_ans",
+    "predates",
+    "a_num_x",
+    "a_rel_x",
+    "a_tgt_x",
+    "a_ent_x"
+  ],
+  "frames": {
+    "train": {
+      "rows": 6877,
+      "sha256": "1bd9dc921449f5113e27b4ddbebf62fb58d4cd4b7e31b8e9b4d2095dfbb2b8ed"
+    },
+    "cal": {
+      "rows": 5114,
+      "sha256": "b220e3b0951483ea23a902b60abf79e84106a24e71a91463fded0277cf9b89ff"
+    },
+    "test": {
+      "rows": 5187,
+      "sha256": "09ccab759353bcbb3eaa4ee43a032444da4722cce1e938a464df89fc6afc6286"
+    }
+  },
+  "group_splits": {
+    "arithmetic": [
+      528,
+      396,
+      395
+    ],
+    "math": [
+      101,
+      76,
+      76
+    ],
+    "mcq": [
+      202,
+      152,
+      151
+    ]
+  }
+}

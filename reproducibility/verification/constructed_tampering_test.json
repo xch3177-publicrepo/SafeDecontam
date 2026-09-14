@@ -1,0 +1,14 @@
+{
+  "synthetic_test_only": true,
+  "modification": "Add 1000 to one copied primary MLP-margin test score; preserve original evidence untouched.",
+  "expected_exit_code": 1,
+  "actual_exit_code": 1,
+  "status": "PASS_TAMPERING_DETECTED",
+  "detected_failures": [
+    "seed.42579.inference.mlp_margin.test.max_abs_error_within_tolerance",
+    "seed.42579.mlp_margin.eps5.AUROC",
+    "seed.42579.mlp_margin.eps10.AUROC",
+    "seed.42579.margin_local.arithmetic.AUROC"
+  ],
+  "original_score_file_sha256": "344ff6a32a9c4faa6fd1e5f4cb52a4c0e5f322a1e0b74f58cb3343ef611ffe7b"
+}

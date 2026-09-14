@@ -1,0 +1,14 @@
+test_106_groups_allow_one_but_not_two_exceedances (test_calibrate.CalibrationTests.test_106_groups_allow_one_but_not_two_exceedances) ... ok
+test_bad_configuration_is_rejected (test_calibrate.CalibrationTests.test_bad_configuration_is_rejected) ... ok
+test_cli_json_has_input_hash_and_roundtrips_cutoff (test_calibrate.CalibrationTests.test_cli_json_has_input_hash_and_roundtrips_cutoff) ... ok
+test_missing_or_empty_requested_family_is_not_dropped (test_calibrate.CalibrationTests.test_missing_or_empty_requested_family_is_not_dropped) ... ok
+test_nonfinite_scores_and_cutoff_overflow_abstain (test_calibrate.CalibrationTests.test_nonfinite_scores_and_cutoff_overflow_abstain) ... ok
+test_one_family_minimum_sample_boundary (test_calibrate.CalibrationTests.test_one_family_minimum_sample_boundary) ... ok
+test_shared_cutoff_is_maximum_and_never_increases_family_deletion (test_calibrate.CalibrationTests.test_shared_cutoff_is_maximum_and_never_increases_family_deletion) ... ok
+test_three_family_bonferroni_boundary (test_calibrate.CalibrationTests.test_three_family_bonferroni_boundary) ... ok
+test_ties_remain_retained_and_do_not_spend_more_than_k (test_calibrate.CalibrationTests.test_ties_remain_retained_and_do_not_spend_more_than_k) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.635s
+
+OK

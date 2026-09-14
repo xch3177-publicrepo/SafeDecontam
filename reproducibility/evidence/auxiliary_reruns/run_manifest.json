@@ -1,0 +1,60 @@
+{
+  "status": "new independent rerun, not recovered historical output",
+  "started_at_utc": "2026-09-14T04:38:05.410296+00:00",
+  "completed_at_utc": "2026-09-14T04:38:07.301121+00:00",
+  "seed": 42579,
+  "python": "3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "scikit_learn": "1.5.2",
+  "pandas": "2.2.2",
+  "environment": {
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "command_arguments": [
+    "--input-dir",
+    "/private/tmp/safedecontam-auxiliary-trace-20260913/Hang_data/ICCC/middle_steps",
+    "--source-dir",
+    "/private/tmp/safedecontam-constructed-trace-20260913/historical_source",
+    "--primary-state",
+    "/private/tmp/safedecontam-constructed-trace-20260913/current_private_runtime/primary_runtime.joblib",
+    "--output",
+    "/private/tmp/safedecontam-auxiliary-trace-20260913/independent_auxiliary_with_scores_20260914"
+  ],
+  "inputs": {
+    "pairs_arith_v2.csv": "38a0e3fc556a326753b3750281cf23fbc3f6fd1602892e19cf30eb5b137a6657",
+    "pairs_mcq_v2.csv": "26df37b232f793b7669f11be2d85ae2791d2844693e64054ddf177a0623c6d94",
+    "pairs_math_v2.csv": "541de4b7446a85ee31a146ea4ad9b7b666e29ae2d8f35f3c53db170e90939f79",
+    "r2_wild_pairs.csv": "186c0f07c4f95e3ce5ce9a3b3ea4e3d6d67dd99b187f2559e0d14ecc9eb74644",
+    "pairs_xling.csv": "943985f165c9b342d11b567dab89c4cc960096eb8076f559e782a81a52a26cf6"
+  },
+  "source_hashes": {
+    "safedecontam.py": "f9bc1dbb2bd65d536cff39c878bdbc7b991721869588da7b76c8cd5bf3466bdf",
+    "run_auxiliary_probes.py": "44c770c63ad98cdde06632b8bc861c50312d36b6d6f1a1a2d093ea22696fbe6c"
+  },
+  "primary_state_sha256": "bf9752cdde804e754e89b06e37e9e75e8e32b4df0062990aec3ea530ca9aa498",
+  "feature_columns": [
+    "ngram4",
+    "shingle3",
+    "bm25n",
+    "wcos",
+    "ccos",
+    "lsa",
+    "a_num",
+    "a_rel",
+    "a_tgt",
+    "a_ent",
+    "a_ans",
+    "a_num_x",
+    "a_rel_x",
+    "a_tgt_x",
+    "a_ent_x",
+    "predates"
+  ],
+  "primary_training": "fixed three-family training split, seed 42579; no probe rows used for training",
+  "calibration": "Unmodified historical threshold selector; exploratory legacy protocol, not the raw-search clean-only guarantee.",
+  "human_labels": "None used; web-pilot reference is silver/control construction, xling reference is paired construction."
+}

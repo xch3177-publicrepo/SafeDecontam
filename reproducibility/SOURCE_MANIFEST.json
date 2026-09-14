@@ -1,0 +1,80 @@
+{
+  "baseline_commit": "7e1c30a8ada23e55784b5050a8a9628e0f2f4110",
+  "package_version": "iccc2026-repro-20260914",
+  "scope": "Current reviewed reproduction tree. Full per-file integrity is recorded in SHA256SUMS.txt; manifests do not establish experimental validity.",
+  "human_labels": "Author-confirmed aggregates only; final item-level human tables are unavailable.",
+  "files": {
+    "raw_search/results/main_audit/results.json": {
+      "sha256": "bcd7841dd0e307fd4c8c8b1137466f270a844fa321be030e0b580a4f7330d2a9",
+      "bytes": 4053
+    },
+    "raw_search/results/main_audit/locked_test_predictions.jsonl": {
+      "sha256": "9949e04d83736b1521604c79959b1ca05d940f921711aa51bed7f37e20fd1168",
+      "bytes": 27125
+    },
+    "evidence/constructed_historical/v2_results.json": {
+      "sha256": "5f14d1da2cfb87d7940ad5f6584fecf07b5313d9451f0df66b60880b38b59524",
+      "bytes": 69853
+    },
+    "evidence/constructed_current/results.json": {
+      "sha256": "c40a1bb1f72618503c8ff67f5ac79009feb6e978c103e531782ea25c58b89e5a",
+      "bytes": 65595
+    },
+    "evidence/constructed_current/run_manifest.json": {
+      "sha256": "b1e897f7de19b3a5d7b7c764af96c0e68e716e9ebfa85c7b41d1848d8f246849",
+      "bytes": 2367
+    },
+    "evidence/auxiliary_reruns/web_pilot_results.json": {
+      "sha256": "e4d11909a7ce367425a51b21659e8f82e55f04b143a5ad24ead4fd4f847c9691",
+      "bytes": 855
+    },
+    "evidence/auxiliary_reruns/xling_results.json": {
+      "sha256": "8791f32c6457202346c4bfa449696cc339fb20bda6c91cc581059b839d491556",
+      "bytes": 12008
+    },
+    "inputs/constructed/pairs_arith_v2.csv": {
+      "sha256": "38a0e3fc556a326753b3750281cf23fbc3f6fd1602892e19cf30eb5b137a6657",
+      "bytes": 6865331
+    },
+    "inputs/constructed/pairs_math_v2.csv": {
+      "sha256": "541de4b7446a85ee31a146ea4ad9b7b666e29ae2d8f35f3c53db170e90939f79",
+      "bytes": 1076438
+    },
+    "inputs/constructed/pairs_mcq_v2.csv": {
+      "sha256": "26df37b232f793b7669f11be2d85ae2791d2844693e64054ddf177a0623c6d94",
+      "bytes": 5290996
+    },
+    "inputs/constructed/pairs_xling.csv": {
+      "sha256": "943985f165c9b342d11b567dab89c4cc960096eb8076f559e782a81a52a26cf6",
+      "bytes": 1046502
+    },
+    "inputs/constructed/r2_wild_pairs.csv": {
+      "sha256": "186c0f07c4f95e3ce5ce9a3b3ea4e3d6d67dd99b187f2559e0d14ecc9eb74644",
+      "bytes": 288401
+    },
+    "runners/plot_current_operating_points.py": {
+      "sha256": "dac6a4096aef92f0ae67ba155bc5d0ffaef2b37b053978c4303a728888194dc9",
+      "bytes": 3197
+    },
+    "runners/run_auxiliary_probes.py": {
+      "sha256": "44c770c63ad98cdde06632b8bc861c50312d36b6d6f1a1a2d093ea22696fbe6c",
+      "bytes": 10057
+    },
+    "runners/run_current_constructed.py": {
+      "sha256": "28c0ec1f6ceceafcbeb9e7a090399f971a2b56d59b8353077f5c70d8f437963a",
+      "bytes": 13550
+    },
+    "evidence/external_reruns/ARC/results.json": {
+      "sha256": "d187a837b81107e46c5f587758c5b9c3fb9fdf8c0285a2ea866a56d7dffb8812",
+      "bytes": 4030
+    },
+    "evidence/external_reruns/hellaswag/results.json": {
+      "sha256": "c9ce9e94236a10fa47157ff7cac486247fedf181b7d4a06a3b2ccdc8411569eb",
+      "bytes": 3915
+    },
+    "evidence/external_reruns/ceval/results.json": {
+      "sha256": "c08c6de69aef2155ee0d7af2566639717f327f12255a16d47fa75f477ea388b2",
+      "bytes": 4043
+    }
+  }
+}

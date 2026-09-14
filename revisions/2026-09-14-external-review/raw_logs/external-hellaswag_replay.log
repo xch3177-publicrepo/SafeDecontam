@@ -1,0 +1,156 @@
+{
+  "data_source": "Raw Bing responses + released hellaswag silver annotations from Li et al. 2024",
+  "dataset": "hellaswag",
+  "split_salt": "",
+  "limitations": [
+    "Labels are search-overlap silver annotations, not independent human judgments.",
+    "Evidence is title/snippet bundles, not archived full pages."
+  ],
+  "item_count": 910,
+  "split_counts": {
+    "train": 379,
+    "validation": 192,
+    "calibration": 162,
+    "test": 177
+  },
+  "category_counts": {
+    "clean": 795,
+    "input-and-label contamination": 110,
+    "input contamination": 5
+  },
+  "validation_model_selection": {
+    "word_tfidf": {
+      "cr": 0.5333333333333333,
+      "cdr": 0.05084745762711865,
+      "gcdr": 0.05084745762711865,
+      "positive_n": 15,
+      "retain_n": 177,
+      "false_negative_n": 7,
+      "false_positive_n": 9,
+      "threshold": 0.8661458667882259,
+      "auroc": 0.7141242937853106
+    },
+    "char_tfidf": {
+      "cr": 0.5333333333333333,
+      "cdr": 0.05084745762711865,
+      "gcdr": 0.05084745762711865,
+      "positive_n": 15,
+      "retain_n": 177,
+      "false_negative_n": 7,
+      "false_positive_n": 9,
+      "threshold": 0.8584614951060351,
+      "auroc": 0.7197740112994351
+    },
+    "logistic": {
+      "cr": 0.4666666666666667,
+      "cdr": 0.05084745762711865,
+      "gcdr": 0.05084745762711865,
+      "positive_n": 15,
+      "retain_n": 177,
+      "false_negative_n": 8,
+      "false_positive_n": 9,
+      "threshold": 0.32276661080208746,
+      "auroc": 0.7879472693032015
+    },
+    "mlp16": {
+      "cr": 0.5333333333333333,
+      "cdr": 0.05084745762711865,
+      "gcdr": 0.05084745762711865,
+      "positive_n": 15,
+      "retain_n": 177,
+      "false_negative_n": 7,
+      "false_positive_n": 9,
+      "threshold": 0.9921368610772485,
+      "auroc": 0.8425612052730697
+    }
+  },
+  "selected_scorer": "word_tfidf",
+  "dense_model": null,
+  "adapter_variant": "lexical+constraint (dense disabled)",
+  "calibration": {
+    "abstained": false,
+    "epsilon": 0.05,
+    "alpha": 0.05,
+    "clean_groups": 138,
+    "allowed_exceedances": 2,
+    "upper_bound": 0.044916777969811784,
+    "threshold": 0.9099744897107532
+  },
+  "locked_test": {
+    "cr": 0.6363636363636364,
+    "cdr": 0.0,
+    "gcdr": 0.0,
+    "positive_n": 22,
+    "retain_n": 155,
+    "false_negative_n": 8,
+    "false_positive_n": 0,
+    "cluster_bootstrap_95_ci": {
+      "cr": [
+        0.4230769230769231,
+        0.8333333333333334
+      ],
+      "cdr": [
+        0.0,
+        0.0
+      ],
+      "gcdr": [
+        0.0,
+        0.0
+      ]
+    },
+    "auroc_diagnostic": 0.9260997067448681,
+    "recall_by_category": {
+      "input contamination": {
+        "n": 2,
+        "removed": 0,
+        "recall": 0.0
+      },
+      "input-and-label contamination": {
+        "n": 20,
+        "removed": 14,
+        "recall": 0.7
+      }
+    }
+  },
+  "budget_sensitivity": {
+    "0.025": {
+      "abstained": false,
+      "threshold": 0.9307863900317106,
+      "allowed_exceedances": 0,
+      "upper_bound": 0.021474277572936608,
+      "cr": 0.4090909090909091,
+      "cdr": 0.0,
+      "gcdr": 0.0,
+      "positive_n": 22,
+      "retain_n": 155,
+      "false_negative_n": 13,
+      "false_positive_n": 0
+    },
+    "0.05": {
+      "abstained": false,
+      "threshold": 0.9099744897107532,
+      "allowed_exceedances": 2,
+      "upper_bound": 0.044916777969811784,
+      "cr": 0.6363636363636364,
+      "cdr": 0.0,
+      "gcdr": 0.0,
+      "positive_n": 22,
+      "retain_n": 155,
+      "false_negative_n": 8,
+      "false_positive_n": 0
+    },
+    "0.1": {
+      "abstained": false,
+      "threshold": 0.8721857592658396,
+      "allowed_exceedances": 7,
+      "upper_bound": 0.09316106158087023,
+      "cr": 0.7272727272727273,
+      "cdr": 0.03870967741935484,
+      "gcdr": 0.03870967741935484,
+      "positive_n": 22,
+      "retain_n": 155,
+      "false_negative_n": 6,
+      "false_positive_n": 6
+    }
+  }
+}

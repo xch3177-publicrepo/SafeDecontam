@@ -1,0 +1,99 @@
+diff --git a/SafeDecontam_ICCC2026_revised.tex b/SafeDecontam_ICCC2026_revised.tex
+index 979c173..936b29a 100644
+--- a/SafeDecontam_ICCC2026_revised.tex
++++ b/SafeDecontam_ICCC2026_revised.tex
+@@ -108,7 +108,7 @@ Six similarity features form the lexical layer. Four-gram containment and three-
+ 
+ Structured MATH perturbations show why lexical similarity cannot determine whether a changed number reverses the answer~\cite{huang2025}. The adapter records numbers, relation cues, target tokens, entities, and units; counts answer support only in conclusion-like context; checks the first four available constraints; and uses chronology only with a reliable predating source~\cite{miao2020}.
+ 
+-Candidate scorers include each individual feature, their mean, similarity-only and full-evidence logistic models, and a 16-unit multilayer perceptron (MLP) with rectified-linear-unit activation, quasi-Newton optimization, and $\ell_2$ regularization; validation selects one scorer before calibration begins. MLP thresholds use the unsquashed margin, which avoids boundary ties from saturated logits. The protocol separates fitting, calibration on clean-group maxima, and one-time evaluation under the locked decision rule.
++Candidate scorers include each individual feature, their mean, similarity-plus-chronology and full-evidence logistic models, and a 16-unit multilayer perceptron (MLP) with rectified-linear-unit activation, quasi-Newton optimization, and $\ell_2$ regularization; validation selects one scorer before calibration begins. MLP thresholds use the unsquashed margin, which avoids boundary ties from saturated logits. The protocol separates fitting, calibration on clean-group maxima, and one-time evaluation under the locked decision rule.
+ 
+ \subsection{Clean-Only Exact Calibration}
+ For family $h$, let $R_{hj}$ be the retain-labeled candidates of calibration source group $j$ and $Q_{hj}=\max_{i\in R_{hj}} s_i$ their largest score; $n_h$ counts the calibration groups with a nonempty retain set; group $j$ is damaged exactly when this maximum crosses the threshold. For $k$ allowed exceedances, the one-sided upper bound is
+@@ -147,7 +147,7 @@ Table~\ref{tab:relations} makes the labeling rule explicit: preservation of deci
+ \subsection{Partitions, Audit, and Protocol}
+ Within each family, source groups enter deterministic 40/30/30 training, calibration, and test partitions. Derivatives remain with their source. Grouping precedes representation fitting, preventing a transformed item from training a scorer later tested on that source.
+ 
+-Some retain documents pair with multiple source items, so identical text may occur in different partitions without splitting a group; a stricter analysis removing every such row leaves 13,905 pairs with a different retain distribution, reported separately.
++Some retain documents pair with multiple source items, so identical text may occur in different partitions without splitting a group.
+ 
+ The raw-search audit uses a separate 40/20/20/20 source-item split: training fits representations and scorers, validation selects one scorer, calibration turns retain-group maxima into a threshold for a 5\% budget at 95\% confidence, and test runs once. Repeated uniform resource locators are removed across splits, and retain assignments, threshold, software, data commit, and 256-bit Secure Hash Algorithm hashes are recorded to enable reproducible audit replay.
+ 
+@@ -183,14 +183,14 @@ MATH & Linked Level-5 MATH item with solution; final-solution fragment & MATH-P-
+ \toprule
+ Scorer & CR (\%) & CDR (\%) & GCDR (\%)\\
+ \midrule
+-4-gram containment & 25.15 & 0.40 & 1.65\\
++4-gram containment & 25.15 & 0.08 & 0.37\\
+ Shingle Jaccard & 5.47 & 0.40 & 1.65\\
+-Normalized BM25 & 3.77 & 0.56 & 2.56\\
+-Similarity fusion & 1.01 & 0.44 & 2.01\\
+-Similarity-only logistic & 41.70 & 0.64 & 2.56\\
+-All-feature logistic & 26.62 & 0.12 & 0.55\\
+-MLP probability & 93.70 & 0.76 & 2.20\\
+-MLP margin & 93.70 & 0.76 & 2.20\\
++Normalized BM25 & 3.72 & 0.56 & 2.56\\
++Similarity fusion & 0.92 & 0.40 & 1.83\\
++No-constraint logistic & 41.66 & 0.64 & 2.56\\
++All-feature logistic & 26.53 & 0.12 & 0.55\\
++MLP probability & 0.00 & 0.00 & 0.00\\
++MLP margin & 90.34 & 0.68 & 2.01\\
+ \bottomrule
+ \end{tabular}
+ \end{table}
+@@ -198,7 +198,7 @@ MLP margin & 93.70 & 0.76 & 2.20\\
+ \begin{figure}[t]
+ \centering
+ \includegraphics[width=0.745\columnwidth]{fig1_cropped.png}
+-\caption{Operating-point tradeoff between contamination recall and clean retention on the constructed pool.}
++\caption{Calibrated operating points on the constructed pool at 5\% and 10\% group budgets.}
+ \label{fig:tradeoff}
+ \end{figure}
+ 
+@@ -227,13 +227,13 @@ C-Eval & Light & 129/144 & Logistic & 46.51 & 2.08 & .9273\\
+ \section{Results}
+ \label{sec:results}
+ \subsection{Constructed-Pair Sensitivity Study}
+-On the constructed arithmetic and MCQ pairs in Table~\ref{tab:constructed}, the selected MLP-margin rule reaches 93.70\% CR, 0.76\% pair CDR, and 2.20\% GCDR, and ten grouped re-splits yield $85.96\pm8.39\%$ recall (71.99\%--94.30\%). Because calibration feedback informed configuration choice, the associated 4.92\% bound is descriptive rather than a fresh certificate; Section~\ref{sec:raw} reports the final protocol-valid evaluation.
++On the constructed arithmetic and MCQ pairs in Table~\ref{tab:constructed}, the fixed-configuration MLP-margin rerun reaches 90.34\% CR, 0.68\% pair CDR, and 2.01\% GCDR, and ten grouped re-splits yield $86.67\pm7.50\%$ recall (population SD; 69.99\%--95.03\%). Because configuration and threshold selection inspect calibration outcomes, the associated 4.67\% calibration bound is descriptive rather than a fresh certificate; Section~\ref{sec:raw} reports the final protocol-valid evaluation.
+ 
+-Recall is 95.69\% for arithmetic, 89.95\% for MCQ, and 65.79\% for MATH; the smaller MATH reservoir also widens its split range. Raising the prespecified group budget from 5\% to 10\% moves the margin threshold from 18.69 to 5.17, raising CR to 98.02\%, pair CDR to 1.28\%, and GCDR to 4.40\%; finite deployment budgets remain fixed before test inspection.
++Recall is 92.21\% for arithmetic and 85.43\% for MCQ under the shared threshold, and 68.42\% for MATH under its local threshold; the smaller MATH reservoir also widens its split range. Raising the prespecified group budget from 5\% to 10\% moves the margin threshold from 56.40 to 10.67, raising CR to 97.93\%, pair CDR to 1.00\%, and GCDR to 3.30\%; finite deployment budgets remain fixed before test inspection.
+ 
+-Probability ties from saturated logits produce zero recall in five re-splits; unsquashed margins preserve ordering. The 137 false negatives comprise 79 released rephrasings, 36 other transformations, 14 answer fragments, and eight exact MMLU copies. Of 19 false removals, 15 are GSM-Symbolic re-instantiations~\cite{mirzadeh2024}, two answer-changing GSM-Plus items~\cite{li2024gsmplus}, and two MMLU items from the same audited subjects.
++Probability ties from saturated logits produce zero recall in four re-splits; unsquashed margins preserve ordering. The 210 false negatives comprise 98 released rephrasings, 63 other transformations, 30 answer fragments, and 19 exact copies (one GSM8K and 18 MMLU). Of 17 false removals, 14 are GSM-Symbolic re-instantiations~\cite{mirzadeh2024}, two answer-changing GSM-Plus items~\cite{li2024gsmplus}, and one MMLU item from the same audited subjects.
+ 
+-Removing cross-partition exact-text reuse leaves 13,905 pairs with 94.57\% MLP-margin recall, 1.49\% CDR, and 3.08\% GCDR. Arithmetic and MCQ thresholds transfer poorly to MATH~\cite{huang2025}, removing a retain candidate in 19.74\% and 18.42\% of source groups, while MATH-calibrated thresholds lose 29.1 and 36.2 recall points on the arithmetic and MCQ families. Local re-estimation corrects the operating point, not evidence absent from the deployed adapter itself.
++Arithmetic and MCQ margin thresholds transfer poorly to MATH~\cite{huang2025}, removing a retain candidate in 28.95\% and 11.84\% of source groups, while the MATH-calibrated threshold loses 30.99 and 35.34 recall points on arithmetic and MCQ relative to their local thresholds. Local re-estimation corrects the operating point, not evidence absent from the deployed adapter itself.
+ 
+ \subsection{Protocol-Valid Raw Search Audit}
+ \label{sec:raw}
+@@ -245,7 +245,7 @@ Calibration contains 106 retain groups; at a 5\% budget and 95\% confidence ($H=
+ 
+ Human adjudication changes only the evaluation labels; the locked rule removes 67/82 contaminated items (81.71\%; exact 95\% confidence interval 71.63--89.38\%) and 0/71 clean items (one-sided 95\% exact upper bound 4.13\%). Precision is 100\% (confidence interval 94.64--100\%) and AUROC is 0.9894; the uncertain item is excluded. With full-page access, removal is 15/20 contaminated and 0/30 clean (one-sided 95\% exact upper bound 9.50\%). Table~\ref{tab:raw} reports all audits.
+ 
+-Lighter adapters for the Allen Institute for Artificial Intelligence Reasoning Challenge, HellaSwag, and Chinese Evaluation Suite (C-Eval) remove 0--2.24\% of clean items but recall only 41.18--63.64\%. In the web pilot, removal is 90.74\% for answer-bearing records, 81.82\% for question-only records, and 0.84\% for cross-item controls. An English-trained cross-lingual probe removes 0.0\% of exact-text, 11.1\% of English, and 8.3\% of Chinese derivatives, an overall 6.48\% recall after local calibration that identifies a representation failure~\cite{xiao2024}.
++Lighter adapters for the Allen Institute for Artificial Intelligence Reasoning Challenge, HellaSwag, and Chinese Evaluation Suite (C-Eval) remove 0--2.24\% of clean items but recall only 41.18--63.64\%. In the web pilot, removal is 90.74\% for answer-bearing records, 81.82\% for question-only records, and 0.00\% for cross-item controls. The frozen English-trained MLP-margin probe removes 0/72 exact-text, 8/72 English, and 2/72 Chinese derivatives (4.63\% overall) after local calibration; the learned scorer has no exact-match override.
+ 
+ \section{Discussion and Validity}
+ GSM-Plus and GSM-Symbolic show that broad similarity can survive answer changes, while false negatives cluster in paraphrases and short fragments whose decisive content activates few constraints, so the learned combiner and its score scale remain part of the policy. Threshold transfer fails in the same way: arithmetic or MCQ cutoffs delete substantial legitimate MATH material, and English-trained features miss cross-lingual contamination. Threshold transfer violates the matched-distribution assumption: weighted conformal calibration can bound the coverage loss under bounded drift~\cite{barber2023}, whereas SafeDecontam requires a matched reservoir per family and abstains otherwise.
+diff --git a/build_camera_ready.sh b/build_camera_ready.sh
+index 44dce69..8f94394 100755
+--- a/build_camera_ready.sh
++++ b/build_camera_ready.sh
+@@ -15,13 +15,13 @@ for pass in 1 2 3; do
+     -output-directory="$work" -jobname="$job" SafeDecontam_ICCC2026_revised.tex >"$work/pass-$pass.txt" 2>&1 \
+     || { cat "$work/pass-$pass.txt" >&2; exit 1; }
+ done
++if test -n "${BUILD_LOG_PATH:-}"; then cp "$work/$job.log" "$BUILD_LOG_PATH"; fi
+ pages=$(pdfinfo "$work/$job.pdf" | awk '/^Pages:/ {print $2}')
+ test "$pages" = 5 || { echo "Build rejected: expected exactly 5 pages, got $pages" >&2; exit 1; }
+ if grep -Eq 'Overfull|Missing character|undefined|LaTeX Error' "$work/$job.log"; then
+   cat "$work/$job.log" >&2
+   exit 1
+ fi
+-if test -n "${BUILD_LOG_PATH:-}"; then cp "$work/$job.log" "$BUILD_LOG_PATH"; fi
+ cp "$work/$job.pdf" "$job.pdf"
+ if test -f SafeDecontam_ICCC2026_camera_ready.pdf; then
+   cp "$job.pdf" SafeDecontam_ICCC2026_camera_ready.pdf

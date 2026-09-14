@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "rows": 238,
+  "checked_fields": [
+    "benchmark_text",
+    "benchmark_answer",
+    "candidate_text",
+    "candidate_date",
+    "benchmark_release",
+    "family",
+    "group_id",
+    "decision_label",
+    "relation",
+    "subject",
+    "silver"
+  ],
+  "construction": "unchanged run_r2_wild.py main stopped immediately before model loading",
+  "source_sha256": "9d29f9065f5f5018fe07a2c6a2ff3678b29bdf826a9713ca30024f5cd8b67406",
+  "paired_csv_sha256": "186c0f07c4f95e3ce5ce9a3b3ea4e3d6d67dd99b187f2559e0d14ecc9eb74644",
+  "counts": {
+    "cross-item (clean)": 119,
+    "web page bears answer": 108,
+    "web page bears question": 11
+  }
+}

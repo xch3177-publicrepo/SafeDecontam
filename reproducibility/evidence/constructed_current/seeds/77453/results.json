@@ -1,0 +1,244 @@
+{
+  "seed": 77453,
+  "splits": {
+    "arithmetic": [
+      528,
+      396,
+      395
+    ],
+    "math": [
+      101,
+      76,
+      76
+    ],
+    "mcq": [
+      202,
+      152,
+      151
+    ]
+  },
+  "variants": {
+    "mlp": {
+      "eps5": {
+        "tau": null,
+        "eps": 0.05,
+        "families": [
+          "arithmetic",
+          "mcq"
+        ],
+        "cal": {
+          "CR": 0.0,
+          "CDR": 0.0,
+          "GCDR": 0.0,
+          "CRR": 100.0,
+          "FRPC": null,
+          "damaged_groups": 0,
+          "total_groups": 548,
+          "removed_clean_pairs": 0,
+          "total_clean_pairs": 2519,
+          "removed_contam": 0,
+          "total_contam": 2183,
+          "U95_worst": 2.397682090379162,
+          "U95_by_family": {
+            "arithmetic": 0.9272098675282947,
+            "mcq": 2.397682090379162
+          }
+        },
+        "test": {
+          "CR": 0.0,
+          "CDR": 0.0,
+          "GCDR": 0.0,
+          "CRR": 100.0,
+          "FRPC": null,
+          "damaged_groups": 0,
+          "total_groups": 546,
+          "removed_clean_pairs": 0,
+          "total_clean_pairs": 2479,
+          "removed_contam": 0,
+          "total_contam": 2175,
+          "U95_worst": 2.4133676190225724,
+          "U95_by_family": {
+            "arithmetic": 0.9295462904318446,
+            "mcq": 2.4133676190225724
+          }
+        },
+        "AUROC": 0.9971805464754513,
+        "test_arithmetic": {
+          "CR": 0.0,
+          "CDR": 0.0,
+          "GCDR": 0.0,
+          "CRR": 100.0,
+          "FRPC": null,
+          "damaged_groups": 0,
+          "total_groups": 395,
+          "removed_clean_pairs": 0,
+          "total_clean_pairs": 2026,
+          "removed_contam": 0,
+          "total_contam": 1579,
+          "U95_worst": 0.755544537417213,
+          "U95_by_family": {
+            "arithmetic": 0.755544537417213
+          }
+        },
+        "test_mcq": {
+          "CR": 0.0,
+          "CDR": 0.0,
+          "GCDR": 0.0,
+          "CRR": 100.0,
+          "FRPC": null,
+          "damaged_groups": 0,
+          "total_groups": 151,
+          "removed_clean_pairs": 0,
+          "total_clean_pairs": 453,
+          "removed_contam": 0,
+          "total_contam": 596,
+          "U95_worst": 1.9643782952651674,
+          "U95_by_family": {
+            "mcq": 1.9643782952651674
+          }
+        }
+      }
+    },
+    "mlp_margin": {
+      "eps5": {
+        "tau": 69.32544486503942,
+        "eps": 0.05,
+        "families": [
+          "arithmetic",
+          "mcq"
+        ],
+        "cal": {
+          "CR": 85.06642235455794,
+          "CDR": 0.39698292973402144,
+          "GCDR": 1.2773722627737227,
+          "CRR": 99.60301707026598,
+          "FRPC": 0.005385029617662897,
+          "damaged_groups": 7,
+          "total_groups": 548,
+          "removed_clean_pairs": 10,
+          "total_clean_pairs": 2519,
+          "removed_contam": 1857,
+          "total_contam": 2183,
+          "U95_worst": 4.6720921972223755,
+          "U95_by_family": {
+            "arithmetic": 2.9218082000009056,
+            "mcq": 4.6720921972223755
+          }
+        },
+        "test": {
+          "CR": 87.2183908045977,
+          "CDR": 0.20169423154497781,
+          "GCDR": 0.9157509157509158,
+          "CRR": 99.79830576845502,
+          "FRPC": 0.002635740643120717,
+          "damaged_groups": 5,
+          "total_groups": 546,
+          "removed_clean_pairs": 5,
+          "total_clean_pairs": 2479,
+          "removed_contam": 1897,
+          "total_contam": 2175,
+          "U95_worst": 5.696179507593749,
+          "U95_by_family": {
+            "arithmetic": 1.816978352373169,
+            "mcq": 5.696179507593749
+          }
+        },
+        "AUROC": 0.9982718281843346,
+        "test_arithmetic": {
+          "CR": 92.40025332488916,
+          "CDR": 0.09871668311944717,
+          "GCDR": 0.5063291139240507,
+          "CRR": 99.90128331688055,
+          "FRPC": 0.0013708019191226869,
+          "damaged_groups": 2,
+          "total_groups": 395,
+          "removed_clean_pairs": 2,
+          "total_clean_pairs": 2026,
+          "removed_contam": 1459,
+          "total_contam": 1579,
+          "U95_worst": 1.585226887925004,
+          "U95_by_family": {
+            "arithmetic": 1.585226887925004
+          }
+        },
+        "test_mcq": {
+          "CR": 73.48993288590604,
+          "CDR": 0.6622516556291391,
+          "GCDR": 1.9867549668874174,
+          "CRR": 99.33774834437085,
+          "FRPC": 0.00684931506849315,
+          "damaged_groups": 3,
+          "total_groups": 151,
+          "removed_clean_pairs": 3,
+          "total_clean_pairs": 453,
+          "removed_contam": 438,
+          "total_contam": 596,
+          "U95_worst": 5.054545554732837,
+          "U95_by_family": {
+            "mcq": 5.054545554732837
+          }
+        }
+      }
+    }
+  },
+  "math_margin_local": {
+    "tau": 242.67136270389489,
+    "eps": 0.05,
+    "families": [
+      "math"
+    ],
+    "cal": {
+      "CR": 30.263157894736842,
+      "CDR": 0.0,
+      "GCDR": 0.0,
+      "CRR": 100.0,
+      "FRPC": 0.0,
+      "damaged_groups": 0,
+      "total_groups": 76,
+      "removed_clean_pairs": 0,
+      "total_clean_pairs": 304,
+      "removed_contam": 46,
+      "total_contam": 152,
+      "U95_worst": 3.86507667257255,
+      "U95_by_family": {
+        "math": 3.86507667257255
+      }
+    },
+    "test": {
+      "CR": 23.684210526315788,
+      "CDR": 0.0,
+      "GCDR": 0.0,
+      "CRR": 100.0,
+      "FRPC": 0.0,
+      "damaged_groups": 0,
+      "total_groups": 76,
+      "removed_clean_pairs": 0,
+      "total_clean_pairs": 304,
+      "removed_contam": 36,
+      "total_contam": 152,
+      "U95_worst": 3.86507667257255,
+      "U95_by_family": {
+        "math": 3.86507667257255
+      }
+    },
+    "AUROC": 0.9824922091412743,
+    "test_math": {
+      "CR": 23.684210526315788,
+      "CDR": 0.0,
+      "GCDR": 0.0,
+      "CRR": 100.0,
+      "FRPC": 0.0,
+      "damaged_groups": 0,
+      "total_groups": 76,
+      "removed_clean_pairs": 0,
+      "total_clean_pairs": 304,
+      "removed_contam": 36,
+      "total_contam": 152,
+      "U95_worst": 3.86507667257255,
+      "U95_by_family": {
+        "math": 3.86507667257255
+      }
+    }
+  },
+  "elapsed_s": 22.728185892105103
+}

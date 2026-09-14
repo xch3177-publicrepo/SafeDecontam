@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-09-14T04:43:48.874387+00:00",
+  "pdf_sha256": "386d1964d5226f55412f2d52e9e7f13e60df22adc50d87a2094dfaa00c0aee1b",
+  "source_sha256": "053b0fc0e75f82c1fa2a2384cbc69ec16e8e2d454e8b7b3c566e7bfd832a9dec",
+  "checks": {
+    "five_pages": true,
+    "no_unresolved_question_marks": true,
+    "final_reference_present": true,
+    "current_xling_result_present": true,
+    "current_mlp_result_present": true
+  },
+  "visual_pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "visual_result": "PASS: all five supplied final renders inspected. No clipped or overlapping text/tables, broken glyphs, or missing content found. Figure legend and budget marker shapes are compact but legible, with no overlap against plotted points. Reference [22] is complete on page 5 and remains inside the page. Author block, corresponding-author footnote, and abstract spacing are intact.",
+  "render_hashes": {
+    "final-1.png": "fc7a1109a510ea7ebe168c4de46b71683513a2e2e1b646d8060cc4ebe32941a8",
+    "final-2.png": "7a3cedf1756d72742bb3ee86d25a8174c3b7ae8853392a153a58d6290551559c",
+    "final-3.png": "41074aeff68e7fa0c142f98522e77a29e6f366c4a16479c037b94ad227077741",
+    "final-4.png": "326ebd4df044a0c7311fe23b78a1b886378912f5936508ccbbed914d35e93cac",
+    "final-5.png": "4b500946d37cc61d1f5bd83e5ee6ad9b4e84ac6192c1c05a7471b62a27138aec"
+  }
+}

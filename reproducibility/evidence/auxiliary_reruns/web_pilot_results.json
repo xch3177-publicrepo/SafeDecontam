@@ -1,0 +1,43 @@
+{
+  "condition": "fixed primary model; MCQ-local calibration; no pilot refitting",
+  "n": 238,
+  "thresholds": {
+    "mlp_margin": 56.39593357841531,
+    "core": 0.998464074587859
+  },
+  "by_silver": {
+    "cross-item (clean)": {
+      "n": 119,
+      "mlp_margin": {
+        "removed": 0,
+        "removal_pct": 0.0
+      },
+      "core": {
+        "removed": 0,
+        "removal_pct": 0.0
+      }
+    },
+    "web page bears answer": {
+      "n": 108,
+      "mlp_margin": {
+        "removed": 98,
+        "removal_pct": 90.74074074074075
+      },
+      "core": {
+        "removed": 0,
+        "removal_pct": 0.0
+      }
+    },
+    "web page bears question": {
+      "n": 11,
+      "mlp_margin": {
+        "removed": 9,
+        "removal_pct": 81.81818181818183
+      },
+      "core": {
+        "removed": 0,
+        "removal_pct": 0.0
+      }
+    }
+  }
+}

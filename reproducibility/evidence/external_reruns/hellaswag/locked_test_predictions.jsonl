@@ -1,0 +1,177 @@
+{"source_id": "22979", "silver_category": "clean", "silver_label": 0, "score": 0.1745852983678212, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "46012", "silver_category": "clean", "silver_label": 0, "score": 0.3562819487839038, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "37444", "silver_category": "clean", "silver_label": 0, "score": 0.363882614720633, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "28836", "silver_category": "clean", "silver_label": 0, "score": 0.3376542900939652, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "35212", "silver_category": "clean", "silver_label": 0, "score": 0.8352541974855614, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "37556", "silver_category": "clean", "silver_label": 0, "score": 0.8347140965005803, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "42143", "silver_category": "clean", "silver_label": 0, "score": 0.21360081404375392, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "1531", "silver_category": "clean", "silver_label": 0, "score": 0.33336335259721783, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "16026", "silver_category": "clean", "silver_label": 0, "score": 0.21888055611212787, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "13731", "silver_category": "clean", "silver_label": 0, "score": 0.19503674593315792, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "47615", "silver_category": "clean", "silver_label": 0, "score": 0.30900397652270045, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "5175", "silver_category": "clean", "silver_label": 0, "score": 0.769003752710363, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "37429", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.950302278084099, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "31115", "silver_category": "clean", "silver_label": 0, "score": 0.20931644532431826, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "16335", "silver_category": "clean", "silver_label": 0, "score": 0.2267149716806747, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "2370", "silver_category": "clean", "silver_label": 0, "score": 0.19276825171239248, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "21441", "silver_category": "clean", "silver_label": 0, "score": 0.18851464043236071, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "16362", "silver_category": "clean", "silver_label": 0, "score": 0.27746117524788555, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "31441", "silver_category": "clean", "silver_label": 0, "score": 0.1321596571275703, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "41919", "silver_category": "clean", "silver_label": 0, "score": 0.49301428955606236, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "47422", "silver_category": "clean", "silver_label": 0, "score": 0.19247280343691286, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "12205", "silver_category": "clean", "silver_label": 0, "score": 0.8122328002925122, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "27262", "silver_category": "clean", "silver_label": 0, "score": 0.22086110592927624, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "42899", "silver_category": "clean", "silver_label": 0, "score": 0.8786884319262754, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "48344", "silver_category": "clean", "silver_label": 0, "score": 0.5524703305879713, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "38416", "silver_category": "clean", "silver_label": 0, "score": 0.17675230371366632, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "38284", "silver_category": "clean", "silver_label": 0, "score": 0.4952781132540328, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "13479", "silver_category": "clean", "silver_label": 0, "score": 0.2660264505555115, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "8818", "silver_category": "clean", "silver_label": 0, "score": 0.12143365206978185, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "12793", "silver_category": "clean", "silver_label": 0, "score": 0.12308610302993883, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "3653", "silver_category": "clean", "silver_label": 0, "score": 0.11408877115342755, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "48484", "silver_category": "clean", "silver_label": 0, "score": 0.1220522745297733, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "1117", "silver_category": "clean", "silver_label": 0, "score": 0.13714347247640996, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "29986", "silver_category": "clean", "silver_label": 0, "score": 0.09188923375972197, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "39800", "silver_category": "clean", "silver_label": 0, "score": 0.2693742507043045, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "7057", "silver_category": "clean", "silver_label": 0, "score": 0.6135868133508823, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "42288", "silver_category": "clean", "silver_label": 0, "score": 0.8853635570699946, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "5617", "silver_category": "clean", "silver_label": 0, "score": 0.8795707539442724, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "9028", "silver_category": "clean", "silver_label": 0, "score": 0.4061381892920121, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "24300", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9555146570175469, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "36239", "silver_category": "clean", "silver_label": 0, "score": 0.11029729340618886, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "4335", "silver_category": "clean", "silver_label": 0, "score": 0.6816510180559353, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "42695", "silver_category": "clean", "silver_label": 0, "score": 0.8658027938568783, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "17732", "silver_category": "clean", "silver_label": 0, "score": 0.24573804411131164, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "8615", "silver_category": "clean", "silver_label": 0, "score": 0.17691588113362383, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "39322", "silver_category": "clean", "silver_label": 0, "score": 0.26297261425856283, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "19635", "silver_category": "clean", "silver_label": 0, "score": 0.22197010459721683, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "10414", "silver_category": "clean", "silver_label": 0, "score": 0.26380208175481384, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "9737", "silver_category": "clean", "silver_label": 0, "score": 0.23103151174437794, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "32877", "silver_category": "clean", "silver_label": 0, "score": 0.2370256925997773, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "14441", "silver_category": "clean", "silver_label": 0, "score": 0.23449266273906624, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "49553", "silver_category": "clean", "silver_label": 0, "score": 0.14089150703683284, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "17168", "silver_category": "clean", "silver_label": 0, "score": 0.1768016161539399, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "31373", "silver_category": "clean", "silver_label": 0, "score": 0.1952513351397925, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "3300", "silver_category": "input contamination", "silver_label": 1, "score": 0.8574409960725649, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "28133", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9322553855563106, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "46556", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9084954342227696, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "33440", "silver_category": "clean", "silver_label": 0, "score": 0.20672056842654787, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "16221", "silver_category": "clean", "silver_label": 0, "score": 0.8158024390255368, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "25956", "silver_category": "clean", "silver_label": 0, "score": 0.2698459816985, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "42611", "silver_category": "clean", "silver_label": 0, "score": 0.17891087666849478, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "25852", "silver_category": "clean", "silver_label": 0, "score": 0.18431226189981395, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "70", "silver_category": "clean", "silver_label": 0, "score": 0.3160323668195179, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "48932", "silver_category": "clean", "silver_label": 0, "score": 0.16949809044092873, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "28919", "silver_category": "clean", "silver_label": 0, "score": 0.2261185265947619, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "46516", "silver_category": "clean", "silver_label": 0, "score": 0.6973592297009852, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "25741", "silver_category": "clean", "silver_label": 0, "score": 0.21404202036057424, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "37394", "silver_category": "clean", "silver_label": 0, "score": 0.3086455391244538, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "25096", "silver_category": "clean", "silver_label": 0, "score": 0.23266807277662105, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "10337", "silver_category": "clean", "silver_label": 0, "score": 0.8682564507184078, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "26317", "silver_category": "clean", "silver_label": 0, "score": 0.2014206085997752, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "26252", "silver_category": "clean", "silver_label": 0, "score": 0.13148865429012419, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "16037", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8720512123313601, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "28112", "silver_category": "clean", "silver_label": 0, "score": 0.30708668693010666, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "4647", "silver_category": "clean", "silver_label": 0, "score": 0.2840452936088596, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "6841", "silver_category": "clean", "silver_label": 0, "score": 0.1715805423785846, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "37475", "silver_category": "clean", "silver_label": 0, "score": 0.2970790256753669, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "48441", "silver_category": "clean", "silver_label": 0, "score": 0.5230173649761959, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "18434", "silver_category": "clean", "silver_label": 0, "score": 0.8383636053456421, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "41288", "silver_category": "clean", "silver_label": 0, "score": 0.16219095125823182, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "36659", "silver_category": "clean", "silver_label": 0, "score": 0.19740874812918094, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "18530", "silver_category": "clean", "silver_label": 0, "score": 0.24115812263177683, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "14642", "silver_category": "clean", "silver_label": 0, "score": 0.2800907704836628, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "24935", "silver_category": "clean", "silver_label": 0, "score": 0.24000565963359202, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "46889", "silver_category": "clean", "silver_label": 0, "score": 0.19772443235525558, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "9109", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9445714442010813, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "18421", "silver_category": "clean", "silver_label": 0, "score": 0.31549895385307214, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "10748", "silver_category": "clean", "silver_label": 0, "score": 0.17499931838235877, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "4998", "silver_category": "clean", "silver_label": 0, "score": 0.22723484114484824, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "17609", "silver_category": "clean", "silver_label": 0, "score": 0.4019737779128865, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "30595", "silver_category": "clean", "silver_label": 0, "score": 0.24291369410666436, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "1722", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.911586997980437, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "11909", "silver_category": "clean", "silver_label": 0, "score": 0.2447882657744716, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "21795", "silver_category": "clean", "silver_label": 0, "score": 0.15503799900501555, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "27047", "silver_category": "clean", "silver_label": 0, "score": 0.284805033926597, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "4664", "silver_category": "clean", "silver_label": 0, "score": 0.21685141090546206, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "16521", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9737931320139901, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "41045", "silver_category": "clean", "silver_label": 0, "score": 0.20433470971651943, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "36528", "silver_category": "clean", "silver_label": 0, "score": 0.17650800066329594, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "38188", "silver_category": "clean", "silver_label": 0, "score": 0.3401726487470784, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "11123", "silver_category": "clean", "silver_label": 0, "score": 0.2259648650398643, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "32643", "silver_category": "clean", "silver_label": 0, "score": 0.865621429425891, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "2709", "silver_category": "clean", "silver_label": 0, "score": 0.34737700094526247, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "42900", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8971609044746223, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "16561", "silver_category": "clean", "silver_label": 0, "score": 0.3678778304821757, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "3227", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9536026122025668, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "30054", "silver_category": "clean", "silver_label": 0, "score": 0.8488180881973985, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "2965", "silver_category": "clean", "silver_label": 0, "score": 0.5773833325366786, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "14858", "silver_category": "clean", "silver_label": 0, "score": 0.17796607767633055, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "38872", "silver_category": "clean", "silver_label": 0, "score": 0.2972281685160723, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "4624", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9667289556202873, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "1774", "silver_category": "clean", "silver_label": 0, "score": 0.2252848427999294, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "18945", "silver_category": "clean", "silver_label": 0, "score": 0.09860971375962446, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "192", "silver_category": "input contamination", "silver_label": 1, "score": 0.09402486447136432, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "23992", "silver_category": "clean", "silver_label": 0, "score": 0.28496166383625615, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "43844", "silver_category": "clean", "silver_label": 0, "score": 0.2995510706153759, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "48588", "silver_category": "clean", "silver_label": 0, "score": 0.2868841098914562, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "37334", "silver_category": "clean", "silver_label": 0, "score": 0.47076583442778513, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "46365", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8618806327928712, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "777", "silver_category": "clean", "silver_label": 0, "score": 0.8351129810508969, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "38604", "silver_category": "clean", "silver_label": 0, "score": 0.8305377710712025, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "15510", "silver_category": "clean", "silver_label": 0, "score": 0.35839350179135077, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "5795", "silver_category": "clean", "silver_label": 0, "score": 0.8586472379085195, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "188", "silver_category": "clean", "silver_label": 0, "score": 0.294646486429698, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "26369", "silver_category": "clean", "silver_label": 0, "score": 0.19454177229233766, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "31506", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9307777456774389, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "16419", "silver_category": "clean", "silver_label": 0, "score": 0.3670451095261761, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "30340", "silver_category": "clean", "silver_label": 0, "score": 0.8756962146485922, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "36778", "silver_category": "clean", "silver_label": 0, "score": 0.23571604635924323, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "48937", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9143125678440648, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "13898", "silver_category": "clean", "silver_label": 0, "score": 0.3177287400661063, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "13524", "silver_category": "clean", "silver_label": 0, "score": 0.1317710915121404, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "36056", "silver_category": "clean", "silver_label": 0, "score": 0.37694847615698834, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "31479", "silver_category": "clean", "silver_label": 0, "score": 0.10799287554927589, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "13508", "silver_category": "clean", "silver_label": 0, "score": 0.1193867601717491, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "37542", "silver_category": "clean", "silver_label": 0, "score": 0.791281692618674, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "44996", "silver_category": "clean", "silver_label": 0, "score": 0.276438309013013, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "24952", "silver_category": "clean", "silver_label": 0, "score": 0.12890165686509808, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "41917", "silver_category": "clean", "silver_label": 0, "score": 0.0662965417647421, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "24564", "silver_category": "clean", "silver_label": 0, "score": 0.21194154336538498, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "39839", "silver_category": "clean", "silver_label": 0, "score": 0.290878101598594, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "45535", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.8597825267896655, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "24899", "silver_category": "clean", "silver_label": 0, "score": 0.8788225434198635, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "46289", "silver_category": "clean", "silver_label": 0, "score": 0.8713036626319325, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "7453", "silver_category": "clean", "silver_label": 0, "score": 0.29026156591264995, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "11978", "silver_category": "clean", "silver_label": 0, "score": 0.1005812066790295, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "21025", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9296534397526744, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "33448", "silver_category": "clean", "silver_label": 0, "score": 0.15665022195057934, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "20788", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9122958156469326, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "20622", "silver_category": "clean", "silver_label": 0, "score": 0.3622678283886589, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "45237", "silver_category": "clean", "silver_label": 0, "score": 0.16090853297055935, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "22832", "silver_category": "clean", "silver_label": 0, "score": 0.8461783170756695, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "1591", "silver_category": "clean", "silver_label": 0, "score": 0.8897564188002135, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "18975", "silver_category": "clean", "silver_label": 0, "score": 0.3970979469241623, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "25088", "silver_category": "clean", "silver_label": 0, "score": 0.21458017337169896, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "17680", "silver_category": "clean", "silver_label": 0, "score": 0.12009504219452624, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "27236", "silver_category": "clean", "silver_label": 0, "score": 0.4484805732879155, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "22761", "silver_category": "clean", "silver_label": 0, "score": 0.1087442508012372, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "11847", "silver_category": "clean", "silver_label": 0, "score": 0.4164408910572153, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "46532", "silver_category": "clean", "silver_label": 0, "score": 0.19834704332779307, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "23023", "silver_category": "clean", "silver_label": 0, "score": 0.14019499907254104, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "13724", "silver_category": "clean", "silver_label": 0, "score": 0.8577354656671612, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "21340", "silver_category": "clean", "silver_label": 0, "score": 0.4615005947422533, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "16033", "silver_category": "clean", "silver_label": 0, "score": 0.10127838416376181, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "116", "silver_category": "clean", "silver_label": 0, "score": 0.1311485194705379, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "38835", "silver_category": "clean", "silver_label": 0, "score": 0.18644970704019828, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "46396", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9618965863730334, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "3763", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.9580847644854721, "threshold": 0.9099744897107532, "removed": true}
+{"source_id": "45369", "silver_category": "clean", "silver_label": 0, "score": 0.15820684363972828, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "46050", "silver_category": "clean", "silver_label": 0, "score": 0.38327927300933284, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "21213", "silver_category": "input-and-label contamination", "silver_label": 1, "score": 0.29490825501834933, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "49258", "silver_category": "clean", "silver_label": 0, "score": 0.15375079565395094, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "47817", "silver_category": "clean", "silver_label": 0, "score": 0.3030114302778353, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "43946", "silver_category": "clean", "silver_label": 0, "score": 0.2506788888430267, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "13122", "silver_category": "clean", "silver_label": 0, "score": 0.1798452168096615, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "18328", "silver_category": "clean", "silver_label": 0, "score": 0.2007439413758964, "threshold": 0.9099744897107532, "removed": false}
+{"source_id": "47047", "silver_category": "clean", "silver_label": 0, "score": 0.4219808947502534, "threshold": 0.9099744897107532, "removed": false}

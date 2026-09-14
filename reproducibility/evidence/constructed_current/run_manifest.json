@@ -1,0 +1,87 @@
+{
+  "identity": "Current independent complete constructed run; distinct from all historical results",
+  "start_utc": "2026-09-14T04:36:10Z",
+  "seed_list": [
+    42579,
+    7709,
+    95089,
+    87037,
+    1876,
+    19831,
+    77453,
+    28627,
+    4668,
+    58722
+  ],
+  "seeds_selected_from": "Unchanged historical SHA256-derived seed list",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "3.12.3",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1",
+    "sklearn": "1.5.2"
+  },
+  "environment": {
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "inputs": {
+    "pairs_arith_v2.csv": {
+      "sha256": "38a0e3fc556a326753b3750281cf23fbc3f6fd1602892e19cf30eb5b137a6657",
+      "bytes": 6865331
+    },
+    "pairs_mcq_v2.csv": {
+      "sha256": "26df37b232f793b7669f11be2d85ae2791d2844693e64054ddf177a0623c6d94",
+      "bytes": 5290996
+    },
+    "pairs_math_v2.csv": {
+      "sha256": "541de4b7446a85ee31a146ea4ad9b7b666e29ae2d8f35f3c53db170e90939f79",
+      "bytes": 1076438
+    }
+  },
+  "source_sha256": {
+    "run_v2.py": "a36fbe6459aa9a5d9feb8bdf7b884492efe52383efe1ff101c0850d1f5e59b3e",
+    "safedecontam.py": "f9bc1dbb2bd65d536cff39c878bdbc7b991721869588da7b76c8cd5bf3466bdf",
+    "run_current_constructed.py": "28c0ec1f6ceceafcbeb9e7a090399f971a2b56d59b8353077f5c70d8f437963a"
+  },
+  "hyperparameters": {
+    "MLP": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "activation": "relu",
+      "solver": "lbfgs",
+      "alpha": 0.001,
+      "max_iter": 4000,
+      "random_state": 0
+    },
+    "logistic": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 2000
+    },
+    "main_families": [
+      "arithmetic",
+      "mcq"
+    ],
+    "alpha": 0.05,
+    "budgets": [
+      0.05,
+      0.1
+    ]
+  },
+  "limitations": [
+    "Exploratory configuration inherited from a pipeline that inspected calibration feedback.",
+    "New numerical output; not a reconstruction of the missing93.70% run.",
+    "No settings or seeds tuned to match either93.70% or90.21%.",
+    "Nonfinite abstention thresholds represented as null in JSON and interpreted as positive infinity."
+  ],
+  "removed_empty_rows": 4,
+  "usable_pairs": 17178,
+  "end_utc": "2026-09-14T04:40:11Z",
+  "elapsed_s": 240.52449297904968,
+  "status": "complete"
+}

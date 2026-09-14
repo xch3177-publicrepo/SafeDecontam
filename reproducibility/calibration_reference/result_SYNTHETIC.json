@@ -1,0 +1,60 @@
+{
+  "implementation": "NEW equation reference, not original experimental code",
+  "scipy_version": "1.16.3",
+  "status": "abstain",
+  "reason": "at_least_one_requested_family_abstained",
+  "epsilon": 0.05,
+  "alpha": 0.05,
+  "H": 3,
+  "requested_families": [
+    "SYNTHETIC_A",
+    "SYNTHETIC_B",
+    "SYNTHETIC_EMPTY"
+  ],
+  "shared_score_scale": "SYNTHETIC_frozen_float64_v1",
+  "deletion_rule": "remove iff finite score >= shared_cutoff; otherwise abstain",
+  "shared_cutoff": null,
+  "assumptions_verified_by_code": false,
+  "families": [
+    {
+      "family": "SYNTHETIC_A",
+      "n_clean_groups": 80,
+      "family_alpha": 0.016666666666666666,
+      "status": "calibrated",
+      "reason": null,
+      "allowed_exceedances_k": 0,
+      "order_statistic_rank_1_based": 80,
+      "anchor_maximum": 0.279,
+      "family_cutoff": 0.2790000000000001,
+      "risk_upper_bound": 0.04989170583624875,
+      "observed_exceedances_at_family_cutoff": 0
+    },
+    {
+      "family": "SYNTHETIC_B",
+      "n_clean_groups": 80,
+      "family_alpha": 0.016666666666666666,
+      "status": "calibrated",
+      "reason": null,
+      "allowed_exceedances_k": 0,
+      "order_statistic_rank_1_based": 80,
+      "anchor_maximum": 0.479,
+      "family_cutoff": 0.47900000000000004,
+      "risk_upper_bound": 0.04989170583624875,
+      "observed_exceedances_at_family_cutoff": 0
+    },
+    {
+      "family": "SYNTHETIC_EMPTY",
+      "n_clean_groups": 0,
+      "family_alpha": 0.016666666666666666,
+      "status": "abstain",
+      "reason": "empty_or_missing_requested_family",
+      "allowed_exceedances_k": null,
+      "order_statistic_rank_1_based": null,
+      "anchor_maximum": null,
+      "family_cutoff": null,
+      "risk_upper_bound": null,
+      "observed_exceedances_at_family_cutoff": null
+    }
+  ],
+  "input_sha256": "e086193217da142335d33598f0c4313c68f957b4f929b02ff8a986cea2d7f6a4"
+}

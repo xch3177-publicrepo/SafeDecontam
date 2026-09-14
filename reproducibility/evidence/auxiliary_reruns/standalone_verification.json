@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "condition": "same command without private primary-state cache",
+  "byte_identical": {
+    "web_pilot_results.json": true,
+    "xling_results.json": true,
+    "web_pilot_predictions.csv": true,
+    "xling_predictions_cal.csv": true,
+    "xling_predictions_test.csv": true,
+    "frozen_models.npz": true,
+    "scores.npz": true,
+    "primary_mcq_calibration.json": true
+  }
+}

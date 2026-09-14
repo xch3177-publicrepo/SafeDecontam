@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-09-14T04:50:32.303194+00:00",
+  "archives": {
+    "SafeDecontam_ICCC2026_5p_PDF_LaTeX_Code.zip": {
+      "files": 260,
+      "manifest_hash_checks": 623,
+      "five_page_manuscripts": [
+        "SafeDecontam_ICCC2026_Reproduction/manuscript/SafeDecontam_ICCC2026_camera_ready_5p.pdf"
+      ],
+      "sha256": "d5c677ff60e9fb99a562cf531159f0ca61328694b0565292ecc33eecfcfca986",
+      "passed": true
+    },
+    "SafeDecontam_ICCC2026_Experiment_Source.zip": {
+      "files": 222,
+      "manifest_hash_checks": 364,
+      "five_page_manuscripts": [],
+      "sha256": "f6828efb23c92f8fca6bf3c72368eaa0864f9fe49cfa376454b5c9a477b11968",
+      "passed": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "provenance": "Author-confirmed aggregate counts. These inputs are not item-level annotations and do not independently verify the underlying labels.",
+  "locked_test_human_audit": {
+    "contaminated_total": 82,
+    "contaminated_removed": 67,
+    "clean_total": 71,
+    "clean_removed": 0,
+    "uncertain_total": 1,
+    "uncertain_removed": 0,
+    "removed_total": 67
+  },
+  "full_page_subsample": {
+    "contaminated_total": 20,
+    "contaminated_removed": 15,
+    "clean_total": 30,
+    "clean_removed": 0
+  }
+}
