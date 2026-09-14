@@ -1,40 +1,96 @@
 {
-  "checked_utc": "2026-09-14T05:31:27.116764+00:00",
+  "checked_utc": "2026-09-14T06:31:57.429385+00:00",
+  "status": "PASS",
+  "package_version": "iccc2026-repro-20260914-v3",
+  "source_repository": "xch3177-publicrepo/SafeDecontam",
+  "source_commit": "d2943641c67f18461ff02d669cdc8c1317f543f5",
+  "manuscript_pdf_sha256": "8e8a867104c67bbd504e69be9e954fb6492ae470f705ce8fee85f0f16729af26",
+  "manuscript_tex_sha256": "ce06082e726fd0a436a265cd210b0c9093a728495c0495b0422891c7e2b8b9c8",
+  "page_count": 5,
   "archives": {
     "SafeDecontam_ICCC2026_5p_PDF_LaTeX.zip": {
-      "files": 9,
-      "hash_entries_checked": 8,
+      "files": 10,
+      "hash_entries_checked": 9,
+      "nested_manifests_checked": [
+        "SafeDecontam_ICCC2026_PDF_LaTeX/SHA256SUMS.txt"
+      ],
       "five_page_pdfs": [
         "SafeDecontam_ICCC2026_PDF_LaTeX/SafeDecontam_ICCC2026_camera_ready_5p.pdf"
       ],
-      "sha256": "538d70e7d122a14db5ff4d592259cebdcbcd03d84b137adfa2d69069b51fbdc8",
-      "bytes": 407150,
+      "sha256": "7b2d60912a0dea5779ed95bd68744d2c289098c902245259db075731856b8159",
+      "bytes": 408145,
+      "crc_passed": true,
+      "path_validation_passed": true,
       "passed": true
     },
     "SafeDecontam_ICCC2026_5p_PDF_LaTeX_Code.zip": {
-      "files": 265,
-      "hash_entries_checked": 628,
+      "files": 269,
+      "hash_entries_checked": 632,
+      "nested_manifests_checked": [
+        "SafeDecontam_ICCC2026_Reproduction/SHA256SUMS.txt",
+        "SafeDecontam_ICCC2026_Reproduction/experiment_source/SHA256SUMS.txt",
+        "SafeDecontam_ICCC2026_Reproduction/experiment_source/evidence/auxiliary_reruns/SHA256SUMS.txt",
+        "SafeDecontam_ICCC2026_Reproduction/experiment_source/evidence/constructed_current/SHA256SUMS.txt",
+        "SafeDecontam_ICCC2026_Reproduction/experiment_source/raw_search/CHECKSUMS_SHA256.txt"
+      ],
       "five_page_pdfs": [
         "SafeDecontam_ICCC2026_Reproduction/manuscript/SafeDecontam_ICCC2026_camera_ready_5p.pdf"
       ],
-      "sha256": "fd0e3985fe727e4b7e9b59d970a53e3168660be274474c7588914671d27062f2",
-      "bytes": 13214766,
+      "sha256": "8d3b7ef15774374387b56de502c411eda2b3a35520e4513f1dd3f52d3120ec28",
+      "bytes": 13220972,
+      "crc_passed": true,
+      "path_validation_passed": true,
       "passed": true
     },
     "SafeDecontam_ICCC2026_Experiment_Source.zip": {
       "files": 222,
       "hash_entries_checked": 364,
+      "nested_manifests_checked": [
+        "experiment_source/SHA256SUMS.txt",
+        "experiment_source/evidence/auxiliary_reruns/SHA256SUMS.txt",
+        "experiment_source/evidence/constructed_current/SHA256SUMS.txt",
+        "experiment_source/raw_search/CHECKSUMS_SHA256.txt"
+      ],
       "five_page_pdfs": [],
       "sha256": "f6828efb23c92f8fca6bf3c72368eaa0864f9fe49cfa376454b5c9a477b11968",
       "bytes": 12685785,
+      "crc_passed": true,
+      "path_validation_passed": true,
       "passed": true
     }
   },
-  "compact_rebuild": {
-    "exit_code": 0,
-    "pages": 5,
-    "byte_identical_pdf": true,
-    "sha256": "bae82dac354b40e2315f0b83159ef0a695bf96861c6e4f695b4cfa7e83911bd8"
+  "canonical_builder_products": true,
+  "builder": "tools/build_reviewed_delivery.py",
+  "builder_provenance": "Final ZIPs, folders, and package manifest copied byte-for-byte from the updated repository builder output. Standalone PDF is identical to the approved manuscript in both ZIPs.",
+  "approved_candidate_rebuild": {
+    "historical_verification_utc": "2026-09-14T06:24:37.727631+00:00",
+    "fresh_zip_rebuild_byte_identical": true,
+    "pdf_sha256": "8e8a867104c67bbd504e69be9e954fb6492ae470f705ce8fee85f0f16729af26",
+    "tex_sha256": "ce06082e726fd0a436a265cd210b0c9093a728495c0495b0422891c7e2b8b9c8",
+    "record": "SafeDecontam_ICCC2026_Reproduction/validation/final_wording/APPROVED_CANDIDATE_QA.json",
+    "scope": "No new PDF authoring or rebuild was performed. Exact previously rebuilt and visually reviewed approved candidate bytes were packaged.",
+    "visual_review": {
+      "status": "PASS",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finding": "All five pages visually inspected; no clipping, overlap, or margin overflow observed."
+    },
+    "latex_validation": {
+      "status": "PASS",
+      "passes": 3,
+      "overfull_boxes": false,
+      "undefined_references": false,
+      "missing_characters": false
+    }
   },
-  "experimental_source_zip_unchanged": true
+  "experimental_source_zip_unchanged": true,
+  "experimental_source_tree_unchanged": true,
+  "experimental_files_compared": 222,
+  "new_experiments_run": false,
+  "release_checksums_verified": true
 }

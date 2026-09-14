@@ -42,7 +42,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--source-commit", required=True)
-    parser.add_argument("--version", default="iccc2026-repro-20260914-v2")
+    parser.add_argument("--version", default="iccc2026-repro-20260914-v3")
     args = parser.parse_args()
     if args.output.exists():
         raise SystemExit("Output already exists; choose a new directory to preserve prior delivery.")
@@ -63,8 +63,12 @@ def main():
     availability = ROOT / "revisions/2026-09-14-availability"
     if availability.is_dir():
         shutil.copytree(availability, package / "validation/availability")
+    final_wording = ROOT / "revisions/2026-09-14-final-wording"
+    if final_wording.is_dir():
+        shutil.copytree(final_wording, package / "validation/final_wording")
     shutil.copyfile(ROOT / "reproducibility/verify_delivery.py", package / "verify_delivery.py")
     metadata = {"package_version": args.version, "source_commit": args.source_commit,
+                "source_repository": "xch3177-publicrepo/SafeDecontam",
                 "manuscript_pdf_sha256": digest(manuscript / "SafeDecontam_ICCC2026_camera_ready_5p.pdf"),
                 "manuscript_tex_sha256": digest(manuscript / "SafeDecontam_ICCC2026_revised.tex"),
                 "baseline_commit": "7e1c30a8ada23e55784b5050a8a9628e0f2f4110"}
@@ -78,6 +82,8 @@ def main():
         + ("`validation/availability/` records the subsequent code and data availability statement update; "
            "the external-review validation snapshot is preserved separately.\n\n"
            if availability.is_dir() else "") +
+        ("`validation/final_wording/` records the four author-approved final wording changes. "
+         "All experimental evidence remains unchanged from v2.\n\n" if final_wording.is_dir() else "") +
         "Run `python3 verify_delivery.py` to check file integrity. "
         "Then follow `experiment_source/README.md` for computational verification. "
         "A checksum check alone is not experimental reproduction.\n")
@@ -100,6 +106,8 @@ def main():
         "and overfull boxes. It writes `SafeDecontam_ICCC2026_camera_ready_5p.pdf`. "
         "Rebuilt PDF bytes can depend on the installed LaTeX toolchain; the supplied checksums "
         "describe the delivered files.\n")
+    if final_wording.is_dir():
+        shutil.copyfile(final_wording / "CHANGES.md", compact / "CHANGES.md")
     manifest(source)
     manifest(package)
     manifest(compact)

@@ -12,9 +12,9 @@ Code and evidence for **SafeDecontam: Risk-Controlled Benchmark Decontamination*
 - [External-review corrections](revisions/2026-09-14-external-review/REVIEW_RESPONSE.md)
 - [Evidence index and limits](reproducibility/EVIDENCE_INDEX.md)
 
-The reviewed reproduction package is `iccc2026-repro-20260914-v2`. The unqualified PDF filename is a byte-identical five-page alias. Run `bash build_camera_ready.sh` to build the paper; it rejects a page count other than five.
+The reviewed reproduction package is `iccc2026-repro-20260914-v3`. The unqualified PDF filename is a byte-identical five-page alias. Run `bash build_camera_ready.sh` to build the paper; it rejects a page count other than five.
 
-The current manuscript adds the approved availability sentence in Section IV-B; it remains five pages. [The one-sentence change and validation](revisions/2026-09-14-availability/README.md) are recorded separately from historical experiment corrections. The experiment-source ZIP is unchanged from the previous release.
+The author-approved final manuscript remains five pages and includes the code/data availability statement. [Four final wording clarifications](revisions/2026-09-14-final-wording/CHANGES.md) connect the scorer names, identify the MCQ calibration bound, align the Figure 1 discussion with its operating points, and disclose the untested text-deduplication robustness check. All experimental results and the experiment-source ZIP are unchanged from v2.
 
 ## Verify the available evidence
 
@@ -38,4 +38,4 @@ The repository's existing [MIT license](LICENSE) applies to the authors' code. U
 
 ## Repository provenance
 
-This is the independent release copy under `xch3177-publicrepo/SafeDecontam`. The reviewed reproduction materials were merged into `main` at `06d0280`. The availability update and package `iccc2026-repro-20260914-v2` are on `codex/availability-20260914`; this update does not push `main`. [SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json) records the exact source and delivery commits. The package preserves selected historical experiment outputs for provenance without importing private Git history or obsolete manuscript packages.
+This is the independent public release copy under `xch3177-publicrepo/SafeDecontam`. The final five-page manuscript and v3 packages are published on `main` with the author's explicit approval. The update includes the earlier availability commit and preserves the independent Git history. [SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json) records the source commit and earlier delivery lineage. Private Git history and obsolete manuscript packages are not imported; selected historical experiment outputs remain for provenance.

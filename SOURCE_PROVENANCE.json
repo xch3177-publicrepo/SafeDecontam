@@ -1,33 +1,62 @@
 {
-  "package_version": "iccc2026-repro-20260914-v2",
-  "source_commit": "f6023578a5c97f13aa32b1a97f0961434fb21413",
-  "manuscript_pdf_sha256": "bae82dac354b40e2315f0b83159ef0a695bf96861c6e4f695b4cfa7e83911bd8",
-  "manuscript_tex_sha256": "dffb8c5468dc1de62d99bf4fdcab3293b1af26c47c9afbe295d0f46c9e80a79f",
-  "baseline_commit": "7e1c30a8ada23e55784b5050a8a9628e0f2f4110",
+  "package_version": "iccc2026-repro-20260914-v3",
+  "source_repository": "xch3177-publicrepo/SafeDecontam",
+  "source_commit": "d2943641c67f18461ff02d669cdc8c1317f543f5",
+  "target_repository": "xch3177-publicrepo/SafeDecontam",
+  "target_branch": "main",
+  "target_base_commit": "06d02802ec20505382ede566179d972c5ed990fa",
+  "previous_public_delivery_commit": "5e466688c6754468ebe36b0718384d2219eed176",
+  "manuscript_pdf_sha256": "8e8a867104c67bbd504e69be9e954fb6492ae470f705ce8fee85f0f16729af26",
+  "manuscript_tex_sha256": "ce06082e726fd0a436a265cd210b0c9093a728495c0495b0422891c7e2b8b9c8",
+  "author_approval": "The author approved the local final-review candidate and explicitly requested pushing it to main. This supersedes the earlier public main restriction for this update.",
+  "change_scope": "Exactly four final prose clarifications from v2; prior availability sentence retained; all experimental code, data, saved results and experiment-source ZIP unchanged.",
+  "history": "Fast-forward publication retains independent target history and the prior availability commit. Private Git history is not imported; no force push.",
+  "visibility": "The public repository stays public and the private mirror stays private.",
+  "previous_delivery_provenance": {
+    "package_version": "iccc2026-repro-20260914-v2",
+    "source_commit": "f6023578a5c97f13aa32b1a97f0961434fb21413",
+    "manuscript_pdf_sha256": "bae82dac354b40e2315f0b83159ef0a695bf96861c6e4f695b4cfa7e83911bd8",
+    "manuscript_tex_sha256": "dffb8c5468dc1de62d99bf4fdcab3293b1af26c47c9afbe295d0f46c9e80a79f",
+    "baseline_commit": "7e1c30a8ada23e55784b5050a8a9628e0f2f4110",
+    "assets": {
+      "SafeDecontam_ICCC2026_5p_PDF_LaTeX_Code.zip": {
+        "sha256": "fd0e3985fe727e4b7e9b59d970a53e3168660be274474c7588914671d27062f2",
+        "bytes": 13214766
+      },
+      "SafeDecontam_ICCC2026_Experiment_Source.zip": {
+        "sha256": "f6828efb23c92f8fca6bf3c72368eaa0864f9fe49cfa376454b5c9a477b11968",
+        "bytes": 12685785
+      },
+      "SafeDecontam_ICCC2026_5p_PDF_LaTeX.zip": {
+        "sha256": "538d70e7d122a14db5ff4d592259cebdcbcd03d84b137adfa2d69069b51fbdc8",
+        "bytes": 407150
+      }
+    },
+    "source_repository": "henryxiaoxiaoxiao/SafeDecontam",
+    "source_branch": "claude/cam-2026-09-12",
+    "source_delivery_commit": "9b764e67ad4d326be580311a06ddcea1d2e7fe4c",
+    "target_repository": "xch3177-publicrepo/SafeDecontam",
+    "target_branch": "codex/availability-20260914",
+    "target_base_commit": "06d02802ec20505382ede566179d972c5ed990fa",
+    "history": "Independent target history retained. Availability update starts from the author-merged main; private Git history is not imported.",
+    "visibility": "The author created the target as public; this delivery does not change repository visibility.",
+    "reviewed_experiment_source_commit": "8d4685c3c0052875f2e8b0774eaed2b64b197ae9",
+    "initial_independent_base_commit": "8369ef1fd6556d0e7665afb3ce69e052d8268b4d",
+    "previous_public_delivery_commit": "a8844cb1bbe8968f4de3bfa123cebaba99d5fe1a",
+    "change_scope": "One approved availability sentence; experimental source ZIP unchanged from the previous package."
+  },
   "assets": {
     "SafeDecontam_ICCC2026_5p_PDF_LaTeX_Code.zip": {
-      "sha256": "fd0e3985fe727e4b7e9b59d970a53e3168660be274474c7588914671d27062f2",
-      "bytes": 13214766
+      "sha256": "8d3b7ef15774374387b56de502c411eda2b3a35520e4513f1dd3f52d3120ec28",
+      "bytes": 13220972
     },
     "SafeDecontam_ICCC2026_Experiment_Source.zip": {
       "sha256": "f6828efb23c92f8fca6bf3c72368eaa0864f9fe49cfa376454b5c9a477b11968",
       "bytes": 12685785
     },
     "SafeDecontam_ICCC2026_5p_PDF_LaTeX.zip": {
-      "sha256": "538d70e7d122a14db5ff4d592259cebdcbcd03d84b137adfa2d69069b51fbdc8",
-      "bytes": 407150
+      "sha256": "7b2d60912a0dea5779ed95bd68744d2c289098c902245259db075731856b8159",
+      "bytes": 408145
     }
-  },
-  "source_repository": "henryxiaoxiaoxiao/SafeDecontam",
-  "source_branch": "claude/cam-2026-09-12",
-  "source_delivery_commit": "9b764e67ad4d326be580311a06ddcea1d2e7fe4c",
-  "target_repository": "xch3177-publicrepo/SafeDecontam",
-  "target_branch": "codex/availability-20260914",
-  "target_base_commit": "06d02802ec20505382ede566179d972c5ed990fa",
-  "history": "Independent target history retained. Availability update starts from the author-merged main; private Git history is not imported.",
-  "visibility": "The author created the target as public; this delivery does not change repository visibility.",
-  "reviewed_experiment_source_commit": "8d4685c3c0052875f2e8b0774eaed2b64b197ae9",
-  "initial_independent_base_commit": "8369ef1fd6556d0e7665afb3ce69e052d8268b4d",
-  "previous_public_delivery_commit": "a8844cb1bbe8968f4de3bfa123cebaba99d5fe1a",
-  "change_scope": "One approved availability sentence; experimental source ZIP unchanged from the previous package."
+  }
 }
